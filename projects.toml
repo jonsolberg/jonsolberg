@@ -87,6 +87,17 @@ blurb = "Early, experimental step towards an Android HX Edit for the Line 6 HX S
 platform = "Android · experimental"
 links = [ ["Android app (test)", "https://github.com/jonsolberg/hxstompforandroid/releases/latest/download/HXStompControl.apk"] ]
 
+[[project]]
+repo = "midi_muppet_multi_4btn"
+name = "MIDI Muppet 4btn"
+image = "assets/midimuppet.webp"
+tagline = "DIY four button MIDI foot switch for HX Stomp, BOSS RC-500 and Wampler Terraform."
+section = "music"
+emoji = "🦶"
+blurb = "A DIY Arduino MIDI foot switch with four buttons, based on Matthias Wientapper's MIDI Muppet HX. Firmware for the Line 6 HX Stomp (presets, snapshots, looper, tuner, tap tempo), the BOSS RC-500 and the Wampler Terraform."
+platform = "Arduino · DIY"
+links = [ ["Build guide", "https://github.com/jonsolberg/midi_muppet_multi_4btn#hardware"] ]
+
 # --- Everyday tools ------------------------------------------------------
 
 [[project]]
