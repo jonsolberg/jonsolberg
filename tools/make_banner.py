@@ -132,7 +132,7 @@ def place(c, x, y):
     bg.paste(c, (x, y), c)
 
 src = lambda n: Image.open(f"{ASSETS}/{n}.webp")
-place(card(src("crossroads"), 420, 4), 1095, 20)
+place(card(src("iridium"), 420, 4), 1095, 20)
 place(card(src("plektrum").crop((40, 0, 412, 320)), 290, -4), 860, 190)
 place(card(src("tactus"), 440, -4), 1140, 200)
 
