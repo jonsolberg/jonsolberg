@@ -91,12 +91,12 @@ links = [ ["Android app (test)", "https://github.com/jonsolberg/hxstompforandroi
 repo = "midi_muppet_multi_4btn"
 name = "MIDI Muppet 4btn"
 image = "assets/midimuppet.webp"
-tagline = "DIY four button MIDI foot switch for HX Stomp, BOSS RC-500 and Wampler Terraform."
+tagline = "DIY four button MIDI foot switch you set up in the browser – HX Stomp, RC-500, Terraform."
 section = "music"
 emoji = "🎹"
 blurb = "A DIY Arduino MIDI foot switch with four buttons, based on Matthias Wientapper's MIDI Muppet HX. Firmware for the Line 6 HX Stomp (presets, snapshots, looper, tuner, tap tempo), the BOSS RC-500 and the Wampler Terraform."
 platform = "Arduino · DIY"
-links = [ ["Build guide", "https://github.com/jonsolberg/midi_muppet_multi_4btn#hardware"] ]
+links = [ ["Web editor", "/MidiMuppet/"], ["Build guide", "https://github.com/jonsolberg/midi_muppet_multi_4btn#hardware"] ]
 
 # --- Everyday tools ------------------------------------------------------
 
