@@ -97,55 +97,73 @@ def main():
 
     sections = cfg["section"] + [{"id": "new", "title": "✨ New & other"}]
 
+    def esc(t):
+        return t.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+    def cell(p):
+        r = repos.get(p.get("repo", "").lower()) if p.get("repo") else None
+        links = [(label, link(url, site)) for label, url in p.get("links", [])]
+        if r:
+            main = r["html_url"]
+        elif p.get("repo"):
+            main = f"https://github.com/{USER}/{p['repo']}"
+        else:
+            main = links[0][1] if links else site
+        meta = []
+        if p.get("platform"):
+            meta.append(esc(p["platform"]))
+        if r and r.get("_release"):
+            rel = r["_release"]
+            meta.append(f'<a href="{rel["html_url"]}">{esc(rel["tag_name"])}</a>')
+        if r:
+            links.append(("Source", r["html_url"]))
+        tagline = p.get("tagline") or p.get("blurb") or (r.get("description") if r else "") or ""
+        h = ['<td width="50%" valign="top">']
+        if p.get("image"):
+            h.append(f'<a href="{main}"><img src="{p["image"]}" alt="{esc(p["name"])}" width="100%"></a>')
+        h.append(f'<h3>{p.get("emoji", "")} <a href="{main}">{esc(p["name"])}</a></h3>')
+        if meta:
+            h.append("<sub>" + " · ".join(meta) + "</sub><br>")
+        if tagline:
+            h.append(esc(tagline) + "<br>")
+        if links:
+            h.append("<sub>" + " · ".join(f'<a href="{u}">{esc(l)}</a>' for l, u in links) + "</sub>")
+        h.append("</td>")
+        return "\n".join(h)
+
     out = []
-    out.append(f'<h1 align="center">Hi, I\'m Jon 👋</h1>\n')
-    out.append(f'<p align="center">{cfg["intro"]}</p>\n')
-    out.append(
-        f'<p align="center"><a href="{site}">🌐 jonsolberg.se</a> · '
-        f'<a href="{site}/tools.html">🧰 All tools</a> · '
-        f'<a href="{site}/games.html">🎮 All games</a> · '
-        f'<a href="{cfg["kofi"]}">🍺 Buy me a beer</a>'
-        + (f' · <a href="mailto:{cfg["email"]}">✉️ {cfg["email"]}</a>' if cfg.get("email") else "")
-        + '</p>\n'
-    )
+    out.append(f'<p align="center"><a href="{site}"><img src="assets/banner.jpg" alt="Jon Solberg – apps and games" width="100%"></a></p>\n\n')
+    links_row = [
+        f'<a href="{site}">🌐 Website</a>',
+        f'<a href="{site}/tools.html">🧰 Tools</a>',
+        f'<a href="{site}/games.html">🎮 Games</a>',
+        f'<a href="{cfg["kofi"]}">🍺 Buy me a beer</a>',
+    ]
+    if cfg.get("email"):
+        links_row.append(f'<a href="mailto:{cfg["email"]}">✉️ {cfg["email"]}</a>')
+    out.append('<p align="center">' + " &nbsp;·&nbsp; ".join(links_row) + "</p>\n\n")
+    out.append(f'<p align="center"><i>{esc(cfg["intro"])}</i></p>\n')
 
     for sec in sections:
         items = [p for p in projects if p.get("section") == sec["id"]]
         if not items:
             continue
-        out.append(f'\n## {sec["title"]}\n')
+        out.append(f'\n<h2 align="center">{sec["title"]}</h2>\n')
         if sec.get("note"):
-            out.append(f'\n{sec["note"]}\n')
-        for p in items:
-            r = repos.get(p.get("repo", "").lower()) if p.get("repo") else None
-            title = p["name"]
-            if r:
-                title = f'[{title}]({r["html_url"]})'
-            meta = []
-            if p.get("platform"):
-                meta.append(p["platform"])
-            if r and r.get("_release"):
-                rel = r["_release"]
-                meta.append(f'[{rel["tag_name"]}]({rel["html_url"]})')
-            if r:
-                meta.append("updated " + ago(r.get("pushed_at"), now))
-            line = f'\n**{p.get("emoji", "•")} {title}**'
-            if meta:
-                line += " · <sub>" + " · ".join(meta) + "</sub>"
-            out.append(line + "  \n")
-            blurb = p.get("blurb") or (r.get("description") if r else "") or ""
-            if blurb:
-                out.append(blurb + "  \n")
-            links = [f'[{label}]({link(url, site)})' for label, url in p.get("links", [])]
-            if r:
-                links.append(f'[Source]({r["html_url"]})')
-            if links:
-                out.append("➜ " + " · ".join(links) + "\n")
+            out.append(f'<p align="center"><sub>{esc(sec["note"])}</sub></p>\n')
+        out.append("\n<table>\n")
+        for i in range(0, len(items), 2):
+            pair = items[i:i + 2]
+            out.append("<tr>\n" + "\n".join(cell(p) for p in pair))
+            if len(pair) == 1:
+                out.append('\n<td width="50%"></td>')
+            out.append("\n</tr>\n")
+        out.append("</table>\n")
 
     out.append(
-        "\n---\n<sub>This page updates itself every day from "
-        f"[projects.toml](https://github.com/{USER}/{USER}/blob/main/projects.toml) "
-        "and my public repositories. All my code is licensed under GPL v3.</sub>\n"
+        '\n<p align="center"><sub>This page updates itself every day from '
+        f'<a href="https://github.com/{USER}/{USER}/blob/main/projects.toml">projects.toml</a> '
+        "and my public repositories · All my code is licensed under GPL v3</sub></p>\n"
     )
 
     text = "".join(out)

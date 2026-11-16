@@ -9,7 +9,7 @@ on:
     - cron: "17 4 * * *"
   push:
     branches: [main]
-    paths: [projects.toml, generate.py, .github/workflows/update.yml]
+    paths: [projects.toml, generate.py, assets/**, .github/workflows/update.yml]
   workflow_dispatch:
 
 permissions:

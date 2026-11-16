@@ -1,5 +1,8 @@
 # Profile page for github.com/jonsolberg
 #
+# image   = screenshot shown on the card (640x320, in assets/)
+# tagline = the one line shown under the name; blurb is the longer text
+#
 # The README is rebuilt from this file plus live data from GitHub
 # (descriptions, latest releases, last update) by .github/workflows/update.yml.
 #
@@ -32,6 +35,8 @@ note = "Play them in the browser on jonsolberg.se, or install the Android versio
 [[project]]
 repo = "plektrum"
 name = "Plektrum"
+image = "assets/plektrum.webp"
+tagline = "Chords, tuner, scales and progressions for every string instrument."
 section = "music"
 emoji = "🎸"
 blurb = "A toolbox for string players: chords for guitar, ukulele, mandolin, banjo and bass, a tuner for fifteen instruments, progressions with backing, the circle of fifths, scales and a metronome."
@@ -41,6 +46,8 @@ links = [ ["Android app", "/Software/Plektrum.apk"] ]
 [[project]]
 repo = "tactus"
 name = "Tactus"
+image = "assets/tactus.webp"
+tagline = "A metronome you feel: it buzzes the beat on your Garmin watch."
 section = "music"
 emoji = "⌚"
 blurb = "A metronome you feel instead of hear: buzzes the beat on your Garmin watch, harder on beat 1. Odd time signatures, tap tempo, colour or black-and-white screens."
@@ -50,6 +57,8 @@ links = [ ["fēnix 7 app", "https://github.com/jonsolberg/tactus/releases/latest
 [[project]]
 repo = "strymoniridiumcontrol"
 name = "Iridium Control"
+image = "assets/iridium.webp"
+tagline = "Editor and 300-preset library for the Strymon Iridium."
 section = "music"
 emoji = "🎛️"
 blurb = "Editor and preset library for the Strymon Iridium pedal. Turn the knobs on screen, keep 300 presets and save them to the pedal over USB or Bluetooth MIDI."
@@ -59,6 +68,8 @@ links = [ ["Android app", "/Software/IridiumControl.apk"] ]
 [[project]]
 repo = "wamplerterraformcontrol"
 name = "Terraform Control"
+image = "assets/terraform.webp"
+tagline = "Editor and presets for the Wampler Terraform pedal."
 section = "music"
 emoji = "🌀"
 blurb = "Editor and preset library for the Wampler Terraform modulation pedal: all 11 effects, knobs on screen, tempo and 128 presets over USB or Bluetooth MIDI."
@@ -68,6 +79,8 @@ links = [ ["Android app", "/Software/TerraformControl.apk"] ]
 [[project]]
 repo = "hxstompforandroid"
 name = "HX Stomp Control"
+image = "assets/hxstomp.webp"
+tagline = "An early Android HX Edit for the Line 6 HX Stomp."
 section = "music"
 emoji = "🧪"
 blurb = "Early, experimental step towards an Android HX Edit for the Line 6 HX Stomp: browse presets bank by bank over USB and switch with a tap."
@@ -79,6 +92,8 @@ links = [ ["Android app (test)", "https://github.com/jonsolberg/hxstompforandroi
 [[project]]
 repo = "levain"
 name = "Levain"
+image = "assets/levain.webp"
+tagline = "Bread calculator with baker's percentages and step timers."
 section = "everyday"
 emoji = "🍞"
 blurb = "A bread calculator with baker's percentages for sourdough, focaccia, pizza and enriched dough. Flour blends, saved recipes and step timers. Works offline."
@@ -88,6 +103,8 @@ links = [ ["Android app", "/Software/Levain.apk"] ]
 [[project]]
 repo = "tea-timer"
 name = "Tea Timer"
+image = "assets/teatimer.webp"
+tagline = "Steep times and temperatures for eleven kinds of tea."
 section = "everyday"
 emoji = "🍵"
 blurb = "Steep times and water temperatures for eleven kinds of tea. Rings and buzzes when your cup is ready, even with the phone locked."
@@ -97,6 +114,8 @@ links = [ ["Android app", "/Software/TeaTimer.apk"] ]
 [[project]]
 repo = "wallpaper"
 name = "Wallpapers"
+image = "assets/wallpapers.webp"
+tagline = "A fresh wallpaper from jonsolberg.se, every day."
 section = "everyday"
 emoji = "🖼️"
 blurb = "A fresh phone or desktop wallpaper from jonsolberg.se every day, every week or whenever a new one is published."
@@ -107,6 +126,8 @@ links = [ ["Android", "/Software/jonsolberg-wallpapers-1.0.apk"], ["Windows", "/
 
 [[project]]
 name = "Crossroads"
+image = "assets/crossroads.webp"
+tagline = "Diplomacy where every ally has a price."
 section = "games"
 emoji = "🗺️"
 blurb = "Every handshake is a gamble, every ally has a price, and peace is whatever is left when nobody can afford the next war."
@@ -115,6 +136,8 @@ links = [ ["Play", "/Games/Crossroads/"], ["Android app", "/Games/Crossroads/And
 
 [[project]]
 name = "Crossfjords"
+image = "assets/crossfjords.webp"
+tagline = "A Nordic comedy of very polite wars."
 section = "games"
 emoji = "⛵"
 blurb = "A Nordic comedy of diplomacy, dodgy deals and very polite wars."
@@ -123,6 +146,8 @@ links = [ ["Play", "/Games/Crossfjords/"] ]
 
 [[project]]
 name = "Wake the Bear"
+image = "assets/wakethebear.webp"
+tagline = "A small robin, a sleeping bear and a lot of ideas."
 section = "games"
 emoji = "🐻"
 blurb = "A big brown bear is fast asleep in the snow. You are a small robin with a lot of ideas."
@@ -131,6 +156,8 @@ links = [ ["Play", "/Games/WakeTheBear/"] ]
 
 [[project]]
 name = "The Naughty List Caper"
+image = "assets/naughtylistcaper.webp"
+tagline = "Point-and-click: get Barnaby off Santa's Naughty List."
 section = "games"
 emoji = "🎅"
 blurb = "A point-and-click adventure in the old pirate-island style: bad boy Barnaby Sneer heads for the North Pole to get his name off Santa's Naughty List."
