@@ -19,7 +19,7 @@ Chords, tuner, scales and progressions for every string instrument.<br>
 <a href="https://github.com/jonsolberg/tactus"><img src="assets/tactus.webp" alt="Tactus" width="100%"></a>
 <h3>⌚ <a href="https://github.com/jonsolberg/tactus">Tactus</a></h3>
 <sub>Garmin Connect IQ · <a href="https://github.com/jonsolberg/tactus/releases/tag/v1.0.0">v1.0.0</a></sub><br>
-A metronome you feel: it buzzes the beat on your Garmin watch.<br>
+A metronome you feel: it buzzes the beat on your Garmin watch. Waiting for review in the Connect IQ Store.<br>
 <sub><a href="https://github.com/jonsolberg/tactus/releases/latest/download/Tactus-fenix7.prg">fēnix 7 app</a> · <a href="https://github.com/jonsolberg/tactus/blob/main/docs/INSTALL.md">Install guide</a> · <a href="https://github.com/jonsolberg/tactus">Source</a></sub>
 </td>
 </tr>
