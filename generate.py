@@ -104,7 +104,9 @@ def main():
         f'<p align="center"><a href="{site}">🌐 jonsolberg.se</a> · '
         f'<a href="{site}/tools.html">🧰 All tools</a> · '
         f'<a href="{site}/games.html">🎮 All games</a> · '
-        f'<a href="{cfg["kofi"]}">🍺 Buy me a beer</a></p>\n'
+        f'<a href="{cfg["kofi"]}">🍺 Buy me a beer</a>'
+        + (f' · <a href="mailto:{cfg["email"]}">✉️ {cfg["email"]}</a>' if cfg.get("email") else "")
+        + '</p>\n'
     )
 
     for sec in sections:

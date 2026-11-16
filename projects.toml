@@ -8,6 +8,7 @@
 
 site = "https://jonsolberg.se:8080"
 kofi = "https://ko-fi.com/jonsolberg"
+email = "github@jonsolberg.se"
 
 intro = """I make small, free apps and games: tools for musicians, a bread calculator, \
 a tea timer, wallpapers and a few games you can play in the browser. \
