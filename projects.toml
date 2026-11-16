@@ -131,7 +131,7 @@ section = "everyday"
 emoji = "🖼️"
 blurb = "A fresh phone or desktop wallpaper from jonsolberg.se every day, every week or whenever a new one is published."
 platform = "Android · Windows · Linux"
-links = [ ["Android", "/Software/jonsolberg-wallpapers-1.0.apk"], ["Windows", "/Software/Wallpapers-Windows.exe"], ["Browse wallpapers", "/Pictures/"] ]
+links = [ ["Android", "/Software/jonsolberg-wallpapers-1.0.apk"], ["Windows", "/Software/Wallpapers-Windows.exe"], ["Browse wallpapers", "/Wallpapers/"] ]
 
 # --- Games (source not public) -------------------------------------------
 

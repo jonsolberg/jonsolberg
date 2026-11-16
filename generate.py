@@ -136,6 +136,7 @@ def main():
     links_row = [
         f'<a href="{site}">🌐 Website</a>',
         f'<a href="{site}/tools.html">🧰 Tools</a>',
+        f'<a href="{site}/music.html">🎸 Music</a>',
         f'<a href="{site}/games.html">🎮 Games</a>',
         f'<a href="{cfg["kofi"]}">🍺 Buy me a beer</a>',
     ]
