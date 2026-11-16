@@ -1,0 +1,137 @@
+# Profile page for github.com/jonsolberg
+#
+# The README is rebuilt from this file plus live data from GitHub
+# (descriptions, latest releases, last update) by .github/workflows/update.yml.
+#
+# New public repos show up by themselves under "New & other". To give one
+# a nicer entry, add a [[project]] block for it with the right section.
+
+site = "https://jonsolberg.se:8080"
+kofi = "https://ko-fi.com/jonsolberg"
+
+intro = """I make small, free apps and games: tools for musicians, a bread calculator, \
+a tea timer, wallpapers and a few games you can play in the browser. \
+The apps are open source under GPL v3."""
+
+[[section]]
+id = "music"
+title = "🎸 For musicians"
+
+[[section]]
+id = "everyday"
+title = "🍞 Everyday tools"
+
+[[section]]
+id = "games"
+title = "🎮 Games"
+note = "Play them in the browser on jonsolberg.se, or install the Android versions."
+
+# --- For musicians -------------------------------------------------------
+
+[[project]]
+repo = "plektrum"
+name = "Plektrum"
+section = "music"
+emoji = "🎸"
+blurb = "A toolbox for string players: chords for guitar, ukulele, mandolin, banjo and bass, a tuner for fifteen instruments, progressions with backing, the circle of fifths, scales and a metronome."
+platform = "Android"
+links = [ ["Android app", "/Software/Plektrum.apk"] ]
+
+[[project]]
+repo = "tactus"
+name = "Tactus"
+section = "music"
+emoji = "⌚"
+blurb = "A metronome you feel instead of hear: buzzes the beat on your Garmin watch, harder on beat 1. Odd time signatures, tap tempo, colour or black-and-white screens."
+platform = "Garmin Connect IQ"
+links = [ ["fēnix 7 app", "https://github.com/jonsolberg/tactus/releases/latest/download/Tactus-fenix7.prg"], ["Install guide", "https://github.com/jonsolberg/tactus/blob/main/docs/INSTALL.md"] ]
+
+[[project]]
+repo = "strymoniridiumcontrol"
+name = "Iridium Control"
+section = "music"
+emoji = "🎛️"
+blurb = "Editor and preset library for the Strymon Iridium pedal. Turn the knobs on screen, keep 300 presets and save them to the pedal over USB or Bluetooth MIDI."
+platform = "Android"
+links = [ ["Android app", "/Software/IridiumControl.apk"] ]
+
+[[project]]
+repo = "wamplerterraformcontrol"
+name = "Terraform Control"
+section = "music"
+emoji = "🌀"
+blurb = "Editor and preset library for the Wampler Terraform modulation pedal: all 11 effects, knobs on screen, tempo and 128 presets over USB or Bluetooth MIDI."
+platform = "Android"
+links = [ ["Android app", "/Software/TerraformControl.apk"] ]
+
+[[project]]
+repo = "hxstompforandroid"
+name = "HX Stomp Control"
+section = "music"
+emoji = "🧪"
+blurb = "Early, experimental step towards an Android HX Edit for the Line 6 HX Stomp: browse presets bank by bank over USB and switch with a tap."
+platform = "Android · experimental"
+links = [ ["Android app (test)", "https://github.com/jonsolberg/hxstompforandroid/releases/latest/download/HXStompControl.apk"] ]
+
+# --- Everyday tools ------------------------------------------------------
+
+[[project]]
+repo = "levain"
+name = "Levain"
+section = "everyday"
+emoji = "🍞"
+blurb = "A bread calculator with baker's percentages for sourdough, focaccia, pizza and enriched dough. Flour blends, saved recipes and step timers. Works offline."
+platform = "Android"
+links = [ ["Android app", "/Software/Levain.apk"] ]
+
+[[project]]
+repo = "tea-timer"
+name = "Tea Timer"
+section = "everyday"
+emoji = "🍵"
+blurb = "Steep times and water temperatures for eleven kinds of tea. Rings and buzzes when your cup is ready, even with the phone locked."
+platform = "Android"
+links = [ ["Android app", "/Software/TeaTimer.apk"] ]
+
+[[project]]
+repo = "wallpaper"
+name = "Wallpapers"
+section = "everyday"
+emoji = "🖼️"
+blurb = "A fresh phone or desktop wallpaper from jonsolberg.se every day, every week or whenever a new one is published."
+platform = "Android · Windows · Linux"
+links = [ ["Android", "/Software/jonsolberg-wallpapers-1.0.apk"], ["Windows", "/Software/Wallpapers-Windows.exe"], ["Browse wallpapers", "/Pictures/"] ]
+
+# --- Games (source not public) -------------------------------------------
+
+[[project]]
+name = "Crossroads"
+section = "games"
+emoji = "🗺️"
+blurb = "Every handshake is a gamble, every ally has a price, and peace is whatever is left when nobody can afford the next war."
+platform = "Browser · Android"
+links = [ ["Play", "/Games/Crossroads/"], ["Android app", "/Games/Crossroads/Android/Crossroads.apk"] ]
+
+[[project]]
+name = "Crossfjords"
+section = "games"
+emoji = "⛵"
+blurb = "A Nordic comedy of diplomacy, dodgy deals and very polite wars."
+platform = "Browser"
+links = [ ["Play", "/Games/Crossfjords/"] ]
+
+[[project]]
+name = "Wake the Bear"
+section = "games"
+emoji = "🐻"
+blurb = "A big brown bear is fast asleep in the snow. You are a small robin with a lot of ideas."
+platform = "Browser"
+links = [ ["Play", "/Games/WakeTheBear/"] ]
+
+[[project]]
+name = "The Naughty List Caper"
+section = "games"
+emoji = "🎅"
+blurb = "A point-and-click adventure in the old pirate-island style: bad boy Barnaby Sneer heads for the North Pole to get his name off Santa's Naughty List."
+platform = "Browser · Android"
+links = [ ["Play", "/Games/NaughtyListCaper/"], ["Android app", "/Games/NaughtyListCaper/Android/NaughtyListCaper.apk"] ]
