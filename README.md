@@ -1,6 +1,6 @@
 <h1 align="center">Hi, I'm Jon 👋</h1>
 <p align="center">I make small, free apps and games: tools for musicians, a bread calculator, a tea timer, wallpapers and a few games you can play in the browser. The apps are open source under GPL v3.</p>
-<p align="center"><a href="https://jonsolberg.se:8080">🌐 jonsolberg.se</a> · <a href="https://jonsolberg.se:8080/tools.html">🧰 All tools</a> · <a href="https://jonsolberg.se:8080/games.html">🎮 All games</a> · <a href="https://ko-fi.com/jonsolberg">🍺 Buy me a beer</a></p>
+<p align="center"><a href="https://jonsolberg.se:8080">🌐 jonsolberg.se</a> · <a href="https://jonsolberg.se:8080/tools.html">🧰 All tools</a> · <a href="https://jonsolberg.se:8080/games.html">🎮 All games</a> · <a href="https://ko-fi.com/jonsolberg">🍺 Buy me a beer</a> · <a href="mailto:github@jonsolberg.se">✉️ github@jonsolberg.se</a></p>
 
 ## 🎸 For musicians
 
@@ -12,7 +12,7 @@ A toolbox for string players: chords for guitar, ukulele, mandolin, banjo and ba
 A metronome you feel instead of hear: buzzes the beat on your Garmin watch, harder on beat 1. Odd time signatures, tap tempo, colour or black-and-white screens.  
 ➜ [fēnix 7 app](https://github.com/jonsolberg/tactus/releases/latest/download/Tactus-fenix7.prg) · [Install guide](https://github.com/jonsolberg/tactus/blob/main/docs/INSTALL.md) · [Source](https://github.com/jonsolberg/tactus)
 
-**🎛️ [Iridium Control](https://github.com/jonsolberg/strymoniridiumcontrol)** · <sub>Android · [v1.1.6](https://github.com/jonsolberg/strymoniridiumcontrol/releases/tag/v1.1.6) · updated today</sub>  
+**🎛️ [Iridium Control](https://github.com/jonsolberg/strymoniridiumcontrol)** · <sub>Android · [v1.1.6](https://github.com/jonsolberg/strymoniridiumcontrol/releases/tag/v1.1.6) · updated yesterday</sub>  
 Editor and preset library for the Strymon Iridium pedal. Turn the knobs on screen, keep 300 presets and save them to the pedal over USB or Bluetooth MIDI.  
 ➜ [Android app](https://jonsolberg.se:8080/Software/IridiumControl.apk) · [Source](https://github.com/jonsolberg/strymoniridiumcontrol)
 
