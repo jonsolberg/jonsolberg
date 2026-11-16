@@ -51,8 +51,8 @@ An early Android HX Edit for the Line 6 HX Stomp.<br>
 <a href="https://github.com/jonsolberg/midi_muppet_multi_4btn"><img src="assets/midimuppet.webp" alt="MIDI Muppet 4btn" width="100%"></a>
 <h3>🎹 <a href="https://github.com/jonsolberg/midi_muppet_multi_4btn">MIDI Muppet 4btn</a></h3>
 <sub>Arduino · DIY</sub><br>
-DIY four button MIDI foot switch for HX Stomp, BOSS RC-500 and Wampler Terraform.<br>
-<sub><a href="https://github.com/jonsolberg/midi_muppet_multi_4btn#hardware">Build guide</a> · <a href="https://github.com/jonsolberg/midi_muppet_multi_4btn">Source</a></sub>
+DIY four button MIDI foot switch you set up in the browser – HX Stomp, RC-500, Terraform.<br>
+<sub><a href="https://jonsolberg.se:8080/MidiMuppet/">Web editor</a> · <a href="https://github.com/jonsolberg/midi_muppet_multi_4btn#hardware">Build guide</a> · <a href="https://github.com/jonsolberg/midi_muppet_multi_4btn">Source</a></sub>
 </td>
 </tr>
 </table>
