@@ -90,7 +90,7 @@ links = [ ["Android app (test)", "https://github.com/jonsolberg/hxstompforandroi
 [[project]]
 repo = "midi_muppet_multi_4btn"
 name = "MIDI Muppet 4btn"
-image = "assets/midimuppet.webp"
+image = "assets/midimuppet-editor.webp"
 tagline = "DIY four button MIDI foot switch you set up in the browser – HX Stomp, RC-500, Terraform."
 section = "music"
 emoji = "🎹"

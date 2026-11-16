@@ -48,7 +48,7 @@ An early Android HX Edit for the Line 6 HX Stomp.<br>
 <sub><a href="https://github.com/jonsolberg/hxstompforandroid/releases/latest/download/HXStompControl.apk">Android app (test)</a> · <a href="https://github.com/jonsolberg/hxstompforandroid">Source</a></sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/jonsolberg/midi_muppet_multi_4btn"><img src="assets/midimuppet.webp" alt="MIDI Muppet 4btn" width="100%"></a>
+<a href="https://github.com/jonsolberg/midi_muppet_multi_4btn"><img src="assets/midimuppet-editor.webp" alt="MIDI Muppet 4btn" width="100%"></a>
 <h3>🎹 <a href="https://github.com/jonsolberg/midi_muppet_multi_4btn">MIDI Muppet 4btn</a></h3>
 <sub>Arduino · DIY</sub><br>
 DIY four button MIDI foot switch you set up in the browser – HX Stomp, RC-500, Terraform.<br>
