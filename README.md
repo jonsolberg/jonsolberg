@@ -1,6 +1,6 @@
 <p align="center"><a href="https://jonsolberg.se:8080"><img src="assets/banner.jpg" alt="Jon Solberg – apps and games" width="100%"></a></p>
 
-<p align="center"><a href="https://jonsolberg.se:8080">🌐 Website</a> &nbsp;·&nbsp; <a href="https://jonsolberg.se:8080/tools.html">🧰 Tools</a> &nbsp;·&nbsp; <a href="https://jonsolberg.se:8080/games.html">🎮 Games</a> &nbsp;·&nbsp; <a href="https://ko-fi.com/jonsolberg">🍺 Buy me a beer</a> &nbsp;·&nbsp; <a href="mailto:github@jonsolberg.se">✉️ github@jonsolberg.se</a></p>
+<p align="center"><a href="https://jonsolberg.se:8080">🌐 Website</a> &nbsp;·&nbsp; <a href="https://jonsolberg.se:8080/tools.html">🧰 Tools</a> &nbsp;·&nbsp; <a href="https://jonsolberg.se:8080/music.html">🎸 Music</a> &nbsp;·&nbsp; <a href="https://jonsolberg.se:8080/games.html">🎮 Games</a> &nbsp;·&nbsp; <a href="https://ko-fi.com/jonsolberg">🍺 Buy me a beer</a> &nbsp;·&nbsp; <a href="mailto:github@jonsolberg.se">✉️ github@jonsolberg.se</a></p>
 
 <p align="center"><i>I make small, free apps and games: tools for musicians, a bread calculator, a tea timer, wallpapers and a few games you can play in the browser. The apps are open source under GPL v3.</i></p>
 
@@ -82,7 +82,7 @@ Steep times and temperatures for eleven kinds of tea.<br>
 <h3>🖼️ <a href="https://github.com/jonsolberg/wallpaper">Wallpapers</a></h3>
 <sub>Android · Windows · Linux · <a href="https://github.com/jonsolberg/wallpaper/releases/tag/android-1.1-linux-1.3-windows-1.8">android-1.1-linux-1.3-windows-1.8</a></sub><br>
 A fresh wallpaper from jonsolberg.se, every day.<br>
-<sub><a href="https://jonsolberg.se:8080/Software/jonsolberg-wallpapers-1.0.apk">Android</a> · <a href="https://jonsolberg.se:8080/Software/Wallpapers-Windows.exe">Windows</a> · <a href="https://jonsolberg.se:8080/Pictures/">Browse wallpapers</a> · <a href="https://github.com/jonsolberg/wallpaper">Source</a></sub>
+<sub><a href="https://jonsolberg.se:8080/Software/jonsolberg-wallpapers-1.0.apk">Android</a> · <a href="https://jonsolberg.se:8080/Software/Wallpapers-Windows.exe">Windows</a> · <a href="https://jonsolberg.se:8080/Wallpapers/">Browse wallpapers</a> · <a href="https://github.com/jonsolberg/wallpaper">Source</a></sub>
 </td>
 <td width="50%"></td>
 </tr>
