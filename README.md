@@ -1,62 +1,123 @@
-<h1 align="center">Hi, I'm Jon 👋</h1>
-<p align="center">I make small, free apps and games: tools for musicians, a bread calculator, a tea timer, wallpapers and a few games you can play in the browser. The apps are open source under GPL v3.</p>
-<p align="center"><a href="https://jonsolberg.se:8080">🌐 jonsolberg.se</a> · <a href="https://jonsolberg.se:8080/tools.html">🧰 All tools</a> · <a href="https://jonsolberg.se:8080/games.html">🎮 All games</a> · <a href="https://ko-fi.com/jonsolberg">🍺 Buy me a beer</a> · <a href="mailto:github@jonsolberg.se">✉️ github@jonsolberg.se</a></p>
+<p align="center"><a href="https://jonsolberg.se:8080"><img src="assets/banner.jpg" alt="Jon Solberg – apps and games" width="100%"></a></p>
 
-## 🎸 For musicians
+<p align="center"><a href="https://jonsolberg.se:8080">🌐 Website</a> &nbsp;·&nbsp; <a href="https://jonsolberg.se:8080/tools.html">🧰 Tools</a> &nbsp;·&nbsp; <a href="https://jonsolberg.se:8080/games.html">🎮 Games</a> &nbsp;·&nbsp; <a href="https://ko-fi.com/jonsolberg">🍺 Buy me a beer</a> &nbsp;·&nbsp; <a href="mailto:github@jonsolberg.se">✉️ github@jonsolberg.se</a></p>
 
-**🎸 [Plektrum](https://github.com/jonsolberg/plektrum)** · <sub>Android · [v1.31](https://github.com/jonsolberg/plektrum/releases/tag/v1.31) · updated today</sub>  
-A toolbox for string players: chords for guitar, ukulele, mandolin, banjo and bass, a tuner for fifteen instruments, progressions with backing, the circle of fifths, scales and a metronome.  
-➜ [Android app](https://jonsolberg.se:8080/Software/Plektrum.apk) · [Source](https://github.com/jonsolberg/plektrum)
+<p align="center"><i>I make small, free apps and games: tools for musicians, a bread calculator, a tea timer, wallpapers and a few games you can play in the browser. The apps are open source under GPL v3.</i></p>
 
-**⌚ [Tactus](https://github.com/jonsolberg/tactus)** · <sub>Garmin Connect IQ · [v1.0.0](https://github.com/jonsolberg/tactus/releases/tag/v1.0.0) · updated today</sub>  
-A metronome you feel instead of hear: buzzes the beat on your Garmin watch, harder on beat 1. Odd time signatures, tap tempo, colour or black-and-white screens.  
-➜ [fēnix 7 app](https://github.com/jonsolberg/tactus/releases/latest/download/Tactus-fenix7.prg) · [Install guide](https://github.com/jonsolberg/tactus/blob/main/docs/INSTALL.md) · [Source](https://github.com/jonsolberg/tactus)
+<h2 align="center">🎸 For musicians</h2>
 
-**🎛️ [Iridium Control](https://github.com/jonsolberg/strymoniridiumcontrol)** · <sub>Android · [v1.1.6](https://github.com/jonsolberg/strymoniridiumcontrol/releases/tag/v1.1.6) · updated yesterday</sub>  
-Editor and preset library for the Strymon Iridium pedal. Turn the knobs on screen, keep 300 presets and save them to the pedal over USB or Bluetooth MIDI.  
-➜ [Android app](https://jonsolberg.se:8080/Software/IridiumControl.apk) · [Source](https://github.com/jonsolberg/strymoniridiumcontrol)
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/jonsolberg/plektrum"><img src="assets/plektrum.webp" alt="Plektrum" width="100%"></a>
+<h3>🎸 <a href="https://github.com/jonsolberg/plektrum">Plektrum</a></h3>
+<sub>Android · <a href="https://github.com/jonsolberg/plektrum/releases/tag/v1.31">v1.31</a></sub><br>
+Chords, tuner, scales and progressions for every string instrument.<br>
+<sub><a href="https://jonsolberg.se:8080/Software/Plektrum.apk">Android app</a> · <a href="https://github.com/jonsolberg/plektrum">Source</a></sub>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/jonsolberg/tactus"><img src="assets/tactus.webp" alt="Tactus" width="100%"></a>
+<h3>⌚ <a href="https://github.com/jonsolberg/tactus">Tactus</a></h3>
+<sub>Garmin Connect IQ · <a href="https://github.com/jonsolberg/tactus/releases/tag/v1.0.0">v1.0.0</a></sub><br>
+A metronome you feel: it buzzes the beat on your Garmin watch.<br>
+<sub><a href="https://github.com/jonsolberg/tactus/releases/latest/download/Tactus-fenix7.prg">fēnix 7 app</a> · <a href="https://github.com/jonsolberg/tactus/blob/main/docs/INSTALL.md">Install guide</a> · <a href="https://github.com/jonsolberg/tactus">Source</a></sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/jonsolberg/strymoniridiumcontrol"><img src="assets/iridium.webp" alt="Iridium Control" width="100%"></a>
+<h3>🎛️ <a href="https://github.com/jonsolberg/strymoniridiumcontrol">Iridium Control</a></h3>
+<sub>Android · <a href="https://github.com/jonsolberg/strymoniridiumcontrol/releases/tag/v1.1.6">v1.1.6</a></sub><br>
+Editor and 300-preset library for the Strymon Iridium.<br>
+<sub><a href="https://jonsolberg.se:8080/Software/IridiumControl.apk">Android app</a> · <a href="https://github.com/jonsolberg/strymoniridiumcontrol">Source</a></sub>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/jonsolberg/wamplerterraformcontrol"><img src="assets/terraform.webp" alt="Terraform Control" width="100%"></a>
+<h3>🌀 <a href="https://github.com/jonsolberg/wamplerterraformcontrol">Terraform Control</a></h3>
+<sub>Android · <a href="https://github.com/jonsolberg/wamplerterraformcontrol/releases/tag/v1.0.3">v1.0.3</a></sub><br>
+Editor and presets for the Wampler Terraform pedal.<br>
+<sub><a href="https://jonsolberg.se:8080/Software/TerraformControl.apk">Android app</a> · <a href="https://github.com/jonsolberg/wamplerterraformcontrol">Source</a></sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/jonsolberg/hxstompforandroid"><img src="assets/hxstomp.webp" alt="HX Stomp Control" width="100%"></a>
+<h3>🧪 <a href="https://github.com/jonsolberg/hxstompforandroid">HX Stomp Control</a></h3>
+<sub>Android · experimental · <a href="https://github.com/jonsolberg/hxstompforandroid/releases/tag/v0.1.0">v0.1.0</a></sub><br>
+An early Android HX Edit for the Line 6 HX Stomp.<br>
+<sub><a href="https://github.com/jonsolberg/hxstompforandroid/releases/latest/download/HXStompControl.apk">Android app (test)</a> · <a href="https://github.com/jonsolberg/hxstompforandroid">Source</a></sub>
+</td>
+<td width="50%"></td>
+</tr>
+</table>
 
-**🌀 [Terraform Control](https://github.com/jonsolberg/wamplerterraformcontrol)** · <sub>Android · [v1.0.3](https://github.com/jonsolberg/wamplerterraformcontrol/releases/tag/v1.0.3) · updated today</sub>  
-Editor and preset library for the Wampler Terraform modulation pedal: all 11 effects, knobs on screen, tempo and 128 presets over USB or Bluetooth MIDI.  
-➜ [Android app](https://jonsolberg.se:8080/Software/TerraformControl.apk) · [Source](https://github.com/jonsolberg/wamplerterraformcontrol)
+<h2 align="center">🍞 Everyday tools</h2>
 
-**🧪 [HX Stomp Control](https://github.com/jonsolberg/hxstompforandroid)** · <sub>Android · experimental · [v0.1.0](https://github.com/jonsolberg/hxstompforandroid/releases/tag/v0.1.0) · updated 2 days ago</sub>  
-Early, experimental step towards an Android HX Edit for the Line 6 HX Stomp: browse presets bank by bank over USB and switch with a tap.  
-➜ [Android app (test)](https://github.com/jonsolberg/hxstompforandroid/releases/latest/download/HXStompControl.apk) · [Source](https://github.com/jonsolberg/hxstompforandroid)
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/jonsolberg/levain"><img src="assets/levain.webp" alt="Levain" width="100%"></a>
+<h3>🍞 <a href="https://github.com/jonsolberg/levain">Levain</a></h3>
+<sub>Android · <a href="https://github.com/jonsolberg/levain/releases/tag/v1.1">v1.1</a></sub><br>
+Bread calculator with baker's percentages and step timers.<br>
+<sub><a href="https://jonsolberg.se:8080/Software/Levain.apk">Android app</a> · <a href="https://github.com/jonsolberg/levain">Source</a></sub>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/jonsolberg/tea-timer"><img src="assets/teatimer.webp" alt="Tea Timer" width="100%"></a>
+<h3>🍵 <a href="https://github.com/jonsolberg/tea-timer">Tea Timer</a></h3>
+<sub>Android · <a href="https://github.com/jonsolberg/tea-timer/releases/tag/v1.2">v1.2</a></sub><br>
+Steep times and temperatures for eleven kinds of tea.<br>
+<sub><a href="https://jonsolberg.se:8080/Software/TeaTimer.apk">Android app</a> · <a href="https://github.com/jonsolberg/tea-timer">Source</a></sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/jonsolberg/wallpaper"><img src="assets/wallpapers.webp" alt="Wallpapers" width="100%"></a>
+<h3>🖼️ <a href="https://github.com/jonsolberg/wallpaper">Wallpapers</a></h3>
+<sub>Android · Windows · Linux · <a href="https://github.com/jonsolberg/wallpaper/releases/tag/android-1.1-linux-1.3-windows-1.8">android-1.1-linux-1.3-windows-1.8</a></sub><br>
+A fresh wallpaper from jonsolberg.se, every day.<br>
+<sub><a href="https://jonsolberg.se:8080/Software/jonsolberg-wallpapers-1.0.apk">Android</a> · <a href="https://jonsolberg.se:8080/Software/Wallpapers-Windows.exe">Windows</a> · <a href="https://jonsolberg.se:8080/Pictures/">Browse wallpapers</a> · <a href="https://github.com/jonsolberg/wallpaper">Source</a></sub>
+</td>
+<td width="50%"></td>
+</tr>
+</table>
 
-## 🍞 Everyday tools
+<h2 align="center">🎮 Games</h2>
+<p align="center"><sub>Play them in the browser on jonsolberg.se, or install the Android versions.</sub></p>
 
-**🍞 [Levain](https://github.com/jonsolberg/levain)** · <sub>Android · [v1.1](https://github.com/jonsolberg/levain/releases/tag/v1.1) · updated today</sub>  
-A bread calculator with baker's percentages for sourdough, focaccia, pizza and enriched dough. Flour blends, saved recipes and step timers. Works offline.  
-➜ [Android app](https://jonsolberg.se:8080/Software/Levain.apk) · [Source](https://github.com/jonsolberg/levain)
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://jonsolberg.se:8080/Games/Crossroads/"><img src="assets/crossroads.webp" alt="Crossroads" width="100%"></a>
+<h3>🗺️ <a href="https://jonsolberg.se:8080/Games/Crossroads/">Crossroads</a></h3>
+<sub>Browser · Android</sub><br>
+Diplomacy where every ally has a price.<br>
+<sub><a href="https://jonsolberg.se:8080/Games/Crossroads/">Play</a> · <a href="https://jonsolberg.se:8080/Games/Crossroads/Android/Crossroads.apk">Android app</a></sub>
+</td>
+<td width="50%" valign="top">
+<a href="https://jonsolberg.se:8080/Games/Crossfjords/"><img src="assets/crossfjords.webp" alt="Crossfjords" width="100%"></a>
+<h3>⛵ <a href="https://jonsolberg.se:8080/Games/Crossfjords/">Crossfjords</a></h3>
+<sub>Browser</sub><br>
+A Nordic comedy of very polite wars.<br>
+<sub><a href="https://jonsolberg.se:8080/Games/Crossfjords/">Play</a></sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://jonsolberg.se:8080/Games/WakeTheBear/"><img src="assets/wakethebear.webp" alt="Wake the Bear" width="100%"></a>
+<h3>🐻 <a href="https://jonsolberg.se:8080/Games/WakeTheBear/">Wake the Bear</a></h3>
+<sub>Browser</sub><br>
+A small robin, a sleeping bear and a lot of ideas.<br>
+<sub><a href="https://jonsolberg.se:8080/Games/WakeTheBear/">Play</a></sub>
+</td>
+<td width="50%" valign="top">
+<a href="https://jonsolberg.se:8080/Games/NaughtyListCaper/"><img src="assets/naughtylistcaper.webp" alt="The Naughty List Caper" width="100%"></a>
+<h3>🎅 <a href="https://jonsolberg.se:8080/Games/NaughtyListCaper/">The Naughty List Caper</a></h3>
+<sub>Browser · Android</sub><br>
+Point-and-click: get Barnaby off Santa's Naughty List.<br>
+<sub><a href="https://jonsolberg.se:8080/Games/NaughtyListCaper/">Play</a> · <a href="https://jonsolberg.se:8080/Games/NaughtyListCaper/Android/NaughtyListCaper.apk">Android app</a></sub>
+</td>
+</tr>
+</table>
 
-**🍵 [Tea Timer](https://github.com/jonsolberg/tea-timer)** · <sub>Android · [v1.2](https://github.com/jonsolberg/tea-timer/releases/tag/v1.2) · updated today</sub>  
-Steep times and water temperatures for eleven kinds of tea. Rings and buzzes when your cup is ready, even with the phone locked.  
-➜ [Android app](https://jonsolberg.se:8080/Software/TeaTimer.apk) · [Source](https://github.com/jonsolberg/tea-timer)
-
-**🖼️ [Wallpapers](https://github.com/jonsolberg/wallpaper)** · <sub>Android · Windows · Linux · [android-1.1-linux-1.3-windows-1.8](https://github.com/jonsolberg/wallpaper/releases/tag/android-1.1-linux-1.3-windows-1.8) · updated today</sub>  
-A fresh phone or desktop wallpaper from jonsolberg.se every day, every week or whenever a new one is published.  
-➜ [Android](https://jonsolberg.se:8080/Software/jonsolberg-wallpapers-1.0.apk) · [Windows](https://jonsolberg.se:8080/Software/Wallpapers-Windows.exe) · [Browse wallpapers](https://jonsolberg.se:8080/Pictures/) · [Source](https://github.com/jonsolberg/wallpaper)
-
-## 🎮 Games
-
-Play them in the browser on jonsolberg.se, or install the Android versions.
-
-**🗺️ Crossroads** · <sub>Browser · Android</sub>  
-Every handshake is a gamble, every ally has a price, and peace is whatever is left when nobody can afford the next war.  
-➜ [Play](https://jonsolberg.se:8080/Games/Crossroads/) · [Android app](https://jonsolberg.se:8080/Games/Crossroads/Android/Crossroads.apk)
-
-**⛵ Crossfjords** · <sub>Browser</sub>  
-A Nordic comedy of diplomacy, dodgy deals and very polite wars.  
-➜ [Play](https://jonsolberg.se:8080/Games/Crossfjords/)
-
-**🐻 Wake the Bear** · <sub>Browser</sub>  
-A big brown bear is fast asleep in the snow. You are a small robin with a lot of ideas.  
-➜ [Play](https://jonsolberg.se:8080/Games/WakeTheBear/)
-
-**🎅 The Naughty List Caper** · <sub>Browser · Android</sub>  
-A point-and-click adventure in the old pirate-island style: bad boy Barnaby Sneer heads for the North Pole to get his name off Santa's Naughty List.  
-➜ [Play](https://jonsolberg.se:8080/Games/NaughtyListCaper/) · [Android app](https://jonsolberg.se:8080/Games/NaughtyListCaper/Android/NaughtyListCaper.apk)
-
----
-<sub>This page updates itself every day from [projects.toml](https://github.com/jonsolberg/jonsolberg/blob/main/projects.toml) and my public repositories. All my code is licensed under GPL v3.</sub>
+<p align="center"><sub>This page updates itself every day from <a href="https://github.com/jonsolberg/jonsolberg/blob/main/projects.toml">projects.toml</a> and my public repositories · All my code is licensed under GPL v3</sub></p>
