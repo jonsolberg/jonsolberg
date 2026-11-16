@@ -42,14 +42,14 @@ Editor and presets for the Wampler Terraform pedal.<br>
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jonsolberg/hxstompforandroid"><img src="assets/hxstomp.webp" alt="HX Stomp Control" width="100%"></a>
-<h3>🧪 <a href="https://github.com/jonsolberg/hxstompforandroid">HX Stomp Control</a></h3>
+<h3>🎚️ <a href="https://github.com/jonsolberg/hxstompforandroid">HX Stomp Control</a></h3>
 <sub>Android · experimental · <a href="https://github.com/jonsolberg/hxstompforandroid/releases/tag/v0.1.0">v0.1.0</a></sub><br>
 An early Android HX Edit for the Line 6 HX Stomp.<br>
 <sub><a href="https://github.com/jonsolberg/hxstompforandroid/releases/latest/download/HXStompControl.apk">Android app (test)</a> · <a href="https://github.com/jonsolberg/hxstompforandroid">Source</a></sub>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/jonsolberg/midi_muppet_multi_4btn"><img src="assets/midimuppet.webp" alt="MIDI Muppet 4btn" width="100%"></a>
-<h3>🦶 <a href="https://github.com/jonsolberg/midi_muppet_multi_4btn">MIDI Muppet 4btn</a></h3>
+<h3>🎹 <a href="https://github.com/jonsolberg/midi_muppet_multi_4btn">MIDI Muppet 4btn</a></h3>
 <sub>Arduino · DIY</sub><br>
 DIY four button MIDI foot switch for HX Stomp, BOSS RC-500 and Wampler Terraform.<br>
 <sub><a href="https://github.com/jonsolberg/midi_muppet_multi_4btn#hardware">Build guide</a> · <a href="https://github.com/jonsolberg/midi_muppet_multi_4btn">Source</a></sub>
