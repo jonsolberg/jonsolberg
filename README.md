@@ -48,11 +48,11 @@ An early Android HX Edit for the Line 6 HX Stomp.<br>
 <sub><a href="https://github.com/jonsolberg/hxstompforandroid/releases/latest/download/HXStompControl.apk">Android app (test)</a> · <a href="https://github.com/jonsolberg/hxstompforandroid">Source</a></sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/jonsolberg/bossrc500editor"><img src="assets/rc500.webp" alt="RC-500 Editor" width="100%"></a>
-<h3>🔁 <a href="https://github.com/jonsolberg/bossrc500editor">RC-500 Editor</a></h3>
-<sub>Web · Android · experimental · <a href="https://github.com/jonsolberg/bossrc500editor/releases/tag/v2.37">v2.37</a></sub><br>
+<a href="https://github.com/jonsolberg/rc500editor"><img src="assets/rc500.webp" alt="RC-500 Editor" width="100%"></a>
+<h3>🔁 <a href="https://github.com/jonsolberg/rc500editor">RC-500 Editor</a></h3>
+<sub>Web · Android · <a href="https://github.com/jonsolberg/rc500editor/releases/tag/v2.39">v2.39</a></sub><br>
 Editor and live control for the BOSS RC-500 looper over its USB port.<br>
-<sub><a href="https://jonsolberg.github.io/bossrc500editor/">Web editor</a> · <a href="https://github.com/jonsolberg/bossrc500editor/releases/latest/download/RC500Editor.apk">Android app</a> · <a href="https://github.com/jonsolberg/bossrc500editor">Source</a></sub>
+<sub><a href="https://jonsolberg.github.io/rc500editor/">Web editor</a> · <a href="https://github.com/jonsolberg/rc500editor/releases/latest/download/RC500Editor.apk">Android app</a> · <a href="https://github.com/jonsolberg/rc500editor">Source</a></sub>
 </td>
 </tr>
 <tr>
