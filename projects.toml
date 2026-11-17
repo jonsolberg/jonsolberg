@@ -47,12 +47,12 @@ links = [ ["Android app", "/Software/Plektrum.apk"] ]
 repo = "tactus"
 name = "Tactus"
 image = "assets/tactus.webp"
-tagline = "A metronome you feel: it buzzes the beat on your Garmin watch. Waiting for review in the Connect IQ Store."
+tagline = "A metronome you feel: it buzzes the beat on your Garmin watch."
 section = "music"
 emoji = "⌚"
 blurb = "A metronome you feel instead of hear: buzzes the beat on your Garmin watch, harder on beat 1. Odd time signatures, tap tempo, colour or black-and-white screens."
 platform = "Garmin Connect IQ"
-links = [ ["fēnix 7 app", "https://github.com/jonsolberg/tactus/releases/latest/download/Tactus-fenix7.prg"], ["Install guide", "https://github.com/jonsolberg/tactus/blob/main/docs/INSTALL.md"] ]
+links = [ ["Connect IQ Store", "https://apps.garmin.com/apps/4fb22149-d95c-454f-a482-f644301c5345"] ]
 
 [[project]]
 repo = "strymoniridiumcontrol"
