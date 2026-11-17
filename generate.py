@@ -138,7 +138,7 @@ def main():
         f'<a href="{site}/tools.html">🧰 Tools</a>',
         f'<a href="{site}/music.html">🎸 Music</a>',
         f'<a href="{site}/games.html">🎮 Games</a>',
-        f'<a href="{cfg["kofi"]}">🍺 Buy me a beer</a>',
+        f'<a href="{cfg["kofi"]}">❤️ Support me</a>',
     ]
     if cfg.get("email"):
         links_row.append(f'<a href="mailto:{cfg["email"]}">✉️ {cfg["email"]}</a>')
