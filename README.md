@@ -11,7 +11,7 @@
 <td width="50%" valign="top">
 <a href="https://github.com/jonsolberg/plektrum"><img src="assets/plektrum.webp" alt="Plektrum" width="100%"></a>
 <h3>🎸 <a href="https://github.com/jonsolberg/plektrum">Plektrum</a></h3>
-<sub>Android · <a href="https://github.com/jonsolberg/plektrum/releases/tag/v1.31">v1.31</a></sub><br>
+<sub>Android · <a href="https://github.com/jonsolberg/plektrum/releases/tag/v1.33">v1.33</a></sub><br>
 Chords, tuner, scales and progressions for every string instrument.<br>
 <sub><a href="https://jonsolberg.se:8080/Software/Plektrum.apk">Android app</a> · <a href="https://github.com/jonsolberg/plektrum">Source</a></sub>
 </td>
@@ -19,22 +19,22 @@ Chords, tuner, scales and progressions for every string instrument.<br>
 <a href="https://github.com/jonsolberg/tactus"><img src="assets/tactus.webp" alt="Tactus" width="100%"></a>
 <h3>⌚ <a href="https://github.com/jonsolberg/tactus">Tactus</a></h3>
 <sub>Garmin Connect IQ · <a href="https://github.com/jonsolberg/tactus/releases/tag/v1.0.0">v1.0.0</a></sub><br>
-A metronome you feel: it buzzes the beat on your Garmin watch. Waiting for review in the Connect IQ Store.<br>
-<sub><a href="https://github.com/jonsolberg/tactus/releases/latest/download/Tactus-fenix7.prg">fēnix 7 app</a> · <a href="https://github.com/jonsolberg/tactus/blob/main/docs/INSTALL.md">Install guide</a> · <a href="https://github.com/jonsolberg/tactus">Source</a></sub>
+A metronome you feel: it buzzes the beat on your Garmin watch.<br>
+<sub><a href="https://apps.garmin.com/apps/4fb22149-d95c-454f-a482-f644301c5345">Connect IQ Store</a> · <a href="https://github.com/jonsolberg/tactus">Source</a></sub>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jonsolberg/strymoniridiumcontrol"><img src="assets/iridium.webp" alt="Iridium Control" width="100%"></a>
 <h3>🎛️ <a href="https://github.com/jonsolberg/strymoniridiumcontrol">Iridium Control</a></h3>
-<sub>Android · <a href="https://github.com/jonsolberg/strymoniridiumcontrol/releases/tag/v1.1.6">v1.1.6</a></sub><br>
+<sub>Android · <a href="https://github.com/jonsolberg/strymoniridiumcontrol/releases/tag/v1.1.7">v1.1.7</a></sub><br>
 Editor and 300-preset library for the Strymon Iridium.<br>
 <sub><a href="https://jonsolberg.se:8080/Software/IridiumControl.apk">Android app</a> · <a href="https://github.com/jonsolberg/strymoniridiumcontrol">Source</a></sub>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/jonsolberg/wamplerterraformcontrol"><img src="assets/terraform.webp" alt="Terraform Control" width="100%"></a>
 <h3>🌀 <a href="https://github.com/jonsolberg/wamplerterraformcontrol">Terraform Control</a></h3>
-<sub>Android · <a href="https://github.com/jonsolberg/wamplerterraformcontrol/releases/tag/v1.0.3">v1.0.3</a></sub><br>
+<sub>Android · <a href="https://github.com/jonsolberg/wamplerterraformcontrol/releases/tag/v1.0.4">v1.0.4</a></sub><br>
 Editor and presets for the Wampler Terraform pedal.<br>
 <sub><a href="https://jonsolberg.se:8080/Software/TerraformControl.apk">Android app</a> · <a href="https://github.com/jonsolberg/wamplerterraformcontrol">Source</a></sub>
 </td>
@@ -50,7 +50,7 @@ An early Android HX Edit for the Line 6 HX Stomp.<br>
 <td width="50%" valign="top">
 <a href="https://github.com/jonsolberg/bossrc500editor"><img src="assets/rc500.webp" alt="RC-500 Editor" width="100%"></a>
 <h3>🔁 <a href="https://github.com/jonsolberg/bossrc500editor">RC-500 Editor</a></h3>
-<sub>Web · Android · experimental · <a href="https://github.com/jonsolberg/bossrc500editor/releases/tag/v2.1">v2.1</a></sub><br>
+<sub>Web · Android · experimental · <a href="https://github.com/jonsolberg/bossrc500editor/releases/tag/v2.11">v2.11</a></sub><br>
 Editor and live control for the BOSS RC-500 looper over its USB port.<br>
 <sub><a href="https://jonsolberg.github.io/bossrc500editor/">Web editor</a> · <a href="https://github.com/jonsolberg/bossrc500editor/releases/latest/download/RC500Editor.apk">Android app</a> · <a href="https://github.com/jonsolberg/bossrc500editor">Source</a></sub>
 </td>
@@ -74,14 +74,14 @@ DIY four button MIDI foot switch you set up in the browser – HX Stomp, RC-500,
 <td width="50%" valign="top">
 <a href="https://github.com/jonsolberg/levain"><img src="assets/levain.webp" alt="Levain" width="100%"></a>
 <h3>🍞 <a href="https://github.com/jonsolberg/levain">Levain</a></h3>
-<sub>Android · <a href="https://github.com/jonsolberg/levain/releases/tag/v1.3">v1.3</a></sub><br>
+<sub>Android · <a href="https://github.com/jonsolberg/levain/releases/tag/v1.4">v1.4</a></sub><br>
 Bread calculator with baker's percentages and step timers.<br>
 <sub><a href="https://jonsolberg.se:8080/Software/Levain.apk">Android app</a> · <a href="https://github.com/jonsolberg/levain">Source</a></sub>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/jonsolberg/tea-timer"><img src="assets/teatimer.webp" alt="Tea Timer" width="100%"></a>
 <h3>🍵 <a href="https://github.com/jonsolberg/tea-timer">Tea Timer</a></h3>
-<sub>Android · <a href="https://github.com/jonsolberg/tea-timer/releases/tag/v1.2">v1.2</a></sub><br>
+<sub>Android · <a href="https://github.com/jonsolberg/tea-timer/releases/tag/v1.3">v1.3</a></sub><br>
 Steep times and temperatures for eleven kinds of tea.<br>
 <sub><a href="https://jonsolberg.se:8080/Software/TeaTimer.apk">Android app</a> · <a href="https://github.com/jonsolberg/tea-timer">Source</a></sub>
 </td>
@@ -90,7 +90,7 @@ Steep times and temperatures for eleven kinds of tea.<br>
 <td width="50%" valign="top">
 <a href="https://github.com/jonsolberg/wallpaper"><img src="assets/wallpapers.webp" alt="Wallpapers" width="100%"></a>
 <h3>🖼️ <a href="https://github.com/jonsolberg/wallpaper">Wallpapers</a></h3>
-<sub>Android · Windows · Linux · <a href="https://github.com/jonsolberg/wallpaper/releases/tag/android-1.1-linux-1.3-windows-1.8">android-1.1-linux-1.3-windows-1.8</a></sub><br>
+<sub>Android · Windows · Linux · <a href="https://github.com/jonsolberg/wallpaper/releases/tag/android-1.2-linux-1.4-windows-1.9">android-1.2-linux-1.4-windows-1.9</a></sub><br>
 A fresh wallpaper from jonsolberg.se, every day.<br>
 <sub><a href="https://jonsolberg.se:8080/Software/jonsolberg-wallpapers-1.0.apk">Android</a> · <a href="https://jonsolberg.se:8080/Software/Wallpapers-Windows.exe">Windows</a> · <a href="https://jonsolberg.se:8080/Wallpapers/">Browse wallpapers</a> · <a href="https://github.com/jonsolberg/wallpaper">Source</a></sub>
 </td>
