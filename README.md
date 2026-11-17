@@ -48,12 +48,22 @@ An early Android HX Edit for the Line 6 HX Stomp.<br>
 <sub><a href="https://github.com/jonsolberg/hxstompforandroid/releases/latest/download/HXStompControl.apk">Android app (test)</a> · <a href="https://github.com/jonsolberg/hxstompforandroid">Source</a></sub>
 </td>
 <td width="50%" valign="top">
+<a href="https://github.com/jonsolberg/bossrc500editor"><img src="assets/rc500.webp" alt="RC-500 Editor" width="100%"></a>
+<h3>🔁 <a href="https://github.com/jonsolberg/bossrc500editor">RC-500 Editor</a></h3>
+<sub>Web · Android · experimental · <a href="https://github.com/jonsolberg/bossrc500editor/releases/tag/v1.15">v1.15</a></sub><br>
+Editor and live control for the BOSS RC-500 looper over its USB port.<br>
+<sub><a href="https://jonsolberg.github.io/bossrc500editor/">Web editor</a> · <a href="https://github.com/jonsolberg/bossrc500editor/releases/latest/download/RC500Editor.apk">Android app</a> · <a href="https://github.com/jonsolberg/bossrc500editor">Source</a></sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 <a href="https://github.com/jonsolberg/midi_muppet_multi_4btn"><img src="assets/midimuppet-editor.webp" alt="MIDI Muppet 4btn" width="100%"></a>
 <h3>🎹 <a href="https://github.com/jonsolberg/midi_muppet_multi_4btn">MIDI Muppet 4btn</a></h3>
 <sub>Arduino · DIY</sub><br>
 DIY four button MIDI foot switch you set up in the browser – HX Stomp, RC-500, Terraform.<br>
 <sub><a href="https://jonsolberg.se:8080/MidiMuppet/">Web editor</a> · <a href="https://github.com/jonsolberg/midi_muppet_multi_4btn#hardware">Build guide</a> · <a href="https://github.com/jonsolberg/midi_muppet_multi_4btn">Source</a></sub>
 </td>
+<td width="50%"></td>
 </tr>
 </table>
 
@@ -64,7 +74,7 @@ DIY four button MIDI foot switch you set up in the browser – HX Stomp, RC-500,
 <td width="50%" valign="top">
 <a href="https://github.com/jonsolberg/levain"><img src="assets/levain.webp" alt="Levain" width="100%"></a>
 <h3>🍞 <a href="https://github.com/jonsolberg/levain">Levain</a></h3>
-<sub>Android · <a href="https://github.com/jonsolberg/levain/releases/tag/v1.1">v1.1</a></sub><br>
+<sub>Android · <a href="https://github.com/jonsolberg/levain/releases/tag/v1.3">v1.3</a></sub><br>
 Bread calculator with baker's percentages and step timers.<br>
 <sub><a href="https://jonsolberg.se:8080/Software/Levain.apk">Android app</a> · <a href="https://github.com/jonsolberg/levain">Source</a></sub>
 </td>
