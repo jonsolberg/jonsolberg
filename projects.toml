@@ -88,6 +88,17 @@ platform = "Android · experimental"
 links = [ ["Android app (test)", "https://github.com/jonsolberg/hxstompforandroid/releases/latest/download/HXStompControl.apk"] ]
 
 [[project]]
+repo = "bossrc500editor"
+name = "RC-500 Editor"
+image = "assets/rc500.webp"
+tagline = "Editor and live control for the BOSS RC-500 looper over its USB port."
+section = "music"
+emoji = "🔁"
+blurb = "Editor for the BOSS RC-500 Loop Station over its own USB port, in the browser or on Android: all 99 memories, ASSIGNs and system settings, loops (play, export, import), and a Direct mode that plays the pedal live from an on-screen copy of its panel, tempo as MIDI clock included. Experimental."
+platform = "Web · Android · experimental"
+links = [ ["Web editor", "https://jonsolberg.github.io/bossrc500editor/"], ["Android app", "https://github.com/jonsolberg/bossrc500editor/releases/latest/download/RC500Editor.apk"] ]
+
+[[project]]
 repo = "midi_muppet_multi_4btn"
 name = "MIDI Muppet 4btn"
 image = "assets/midimuppet-editor.webp"
