@@ -52,7 +52,7 @@ An early Android HX Edit for the Line 6 HX Stomp.<br>
 <h3>🔁 <a href="https://github.com/jonsolberg/bossrc500editor">RC-500 Editor</a></h3>
 <sub>Web · Android · experimental</sub><br>
 Editor and live control for the BOSS RC-500 looper over its USB port.<br>
-<sub><a href="https://jonsolberg.github.io/bossrc500editor/">Web editor</a> · <a href="https://github.com/jonsolberg/bossrc500editor/releases/latest/download/RC500Editor.apk">Android app</a></sub>
+<sub><a href="https://jonsolberg.github.io/rc500editor/">Web editor</a> · <a href="https://github.com/jonsolberg/bossrc500editor/releases/latest/download/RC500Editor.apk">Android app</a></sub>
 </td>
 </tr>
 <tr>
