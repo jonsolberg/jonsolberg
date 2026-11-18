@@ -48,18 +48,18 @@ An early Android HX Edit for the Line 6 HX Stomp.<br>
 <sub><a href="https://github.com/jonsolberg/hxstompforandroid/releases/latest/download/HXStompControl.apk">Android app (test)</a> · <a href="https://github.com/jonsolberg/hxstompforandroid">Source</a></sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/jonsolberg/rc500editor"><img src="assets/rc500.webp" alt="RC-500 Editor" width="100%"></a>
-<h3>🔁 <a href="https://github.com/jonsolberg/rc500editor">RC-500 Editor</a></h3>
-<sub>Web · Android · <a href="https://github.com/jonsolberg/rc500editor/releases/tag/v2.39">v2.39</a></sub><br>
+<a href="https://github.com/jonsolberg/bossrc500editor"><img src="assets/rc500.webp" alt="RC-500 Editor" width="100%"></a>
+<h3>🔁 <a href="https://github.com/jonsolberg/bossrc500editor">RC-500 Editor</a></h3>
+<sub>Web · Android · experimental</sub><br>
 Editor and live control for the BOSS RC-500 looper over its USB port.<br>
-<sub><a href="https://jonsolberg.github.io/rc500editor/">Web editor</a> · <a href="https://github.com/jonsolberg/rc500editor/releases/latest/download/RC500Editor.apk">Android app</a> · <a href="https://github.com/jonsolberg/rc500editor">Source</a></sub>
+<sub><a href="https://jonsolberg.github.io/bossrc500editor/">Web editor</a> · <a href="https://github.com/jonsolberg/bossrc500editor/releases/latest/download/RC500Editor.apk">Android app</a></sub>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jonsolberg/midi_muppet_multi_4btn"><img src="assets/midimuppet-editor.webp" alt="MIDI Muppet 4btn" width="100%"></a>
 <h3>🎹 <a href="https://github.com/jonsolberg/midi_muppet_multi_4btn">MIDI Muppet 4btn</a></h3>
-<sub>Arduino · DIY</sub><br>
+<sub>Arduino · DIY · <a href="https://github.com/jonsolberg/midi_muppet_multi_4btn/releases/tag/v.1.0.0">v.1.0.0</a></sub><br>
 DIY four button MIDI foot switch you set up in the browser – HX Stomp, RC-500, Terraform.<br>
 <sub><a href="https://jonsolberg.se:8080/MidiMuppet/">Web editor</a> · <a href="https://github.com/jonsolberg/midi_muppet_multi_4btn#hardware">Build guide</a> · <a href="https://github.com/jonsolberg/midi_muppet_multi_4btn">Source</a></sub>
 </td>
@@ -132,6 +132,24 @@ A small robin, a sleeping bear and a lot of ideas.<br>
 <sub>Browser · Android</sub><br>
 Point-and-click: get Barnaby off Santa's Naughty List.<br>
 <sub><a href="https://jonsolberg.se:8080/Games/NaughtyListCaper/">Play</a> · <a href="https://jonsolberg.se:8080/Games/NaughtyListCaper/Android/NaughtyListCaper.apk">Android app</a></sub>
+</td>
+</tr>
+</table>
+
+<h2 align="center">✨ New & other</h2>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3>✨ <a href="https://github.com/jonsolberg/efx-le-loop-swither-editor">efx-le-loop-swither-editor</a></h3>
+A web based editor for the Musicom Lab EFX LE Loop Switcher<br>
+<sub><a href="https://github.com/jonsolberg/efx-le-loop-swither-editor">Source</a></sub>
+</td>
+<td width="50%" valign="top">
+<h3>✨ <a href="https://github.com/jonsolberg/rc500editor">rc500editor</a></h3>
+<sub><a href="https://github.com/jonsolberg/rc500editor/releases/tag/v2.48">v2.48</a></sub><br>
+Editor for the BOSS RC-500 Loop Station, in the browser and as an Android app: edit memories, rhythms and settings, and back up and restore the pedal over USB.<br>
+<sub><a href="https://jonsolberg.github.io/rc500editor/">Website</a> · <a href="https://github.com/jonsolberg/rc500editor">Source</a></sub>
 </td>
 </tr>
 </table>
