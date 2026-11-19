@@ -52,7 +52,7 @@ An early Android HX Edit for the Line 6 HX Stomp.<br>
 <h3>🔁 <a href="https://github.com/jonsolberg/bossrc500editor">RC-500 Editor</a></h3>
 <sub>Web · Android · experimental</sub><br>
 Editor and live control for the BOSS RC-500 looper over its USB port.<br>
-<sub><a href="https://jonsolberg.github.io/rc500editor/">Web editor</a> · <a href="https://github.com/jonsolberg/bossrc500editor/releases/latest/download/RC500Editor.apk">Android app</a></sub>
+<sub><a href="https://jonsolberg.github.io/bossrc500editor/">Web editor</a> · <a href="https://github.com/jonsolberg/bossrc500editor/releases/latest/download/RC500Editor.apk">Android app</a></sub>
 </td>
 </tr>
 <tr>
@@ -141,15 +141,15 @@ Point-and-click: get Barnaby off Santa's Naughty List.<br>
 <table>
 <tr>
 <td width="50%" valign="top">
-<h3>✨ <a href="https://github.com/jonsolberg/efx-le-loop-swither-editor">efx-le-loop-swither-editor</a></h3>
-A web based editor for the Musicom Lab EFX LE Loop Switcher<br>
-<sub><a href="https://github.com/jonsolberg/efx-le-loop-swither-editor">Source</a></sub>
-</td>
-<td width="50%" valign="top">
 <h3>✨ <a href="https://github.com/jonsolberg/rc500editor">rc500editor</a></h3>
 <sub><a href="https://github.com/jonsolberg/rc500editor/releases/tag/v2.48">v2.48</a></sub><br>
 Editor for the BOSS RC-500 Loop Station, in the browser and as an Android app: edit memories, rhythms and settings, and back up and restore the pedal over USB.<br>
 <sub><a href="https://jonsolberg.github.io/rc500editor/">Website</a> · <a href="https://github.com/jonsolberg/rc500editor">Source</a></sub>
+</td>
+<td width="50%" valign="top">
+<h3>✨ <a href="https://github.com/jonsolberg/efx-le-loop-swither-editor">efx-le-loop-swither-editor</a></h3>
+A web based editor for the Musicom Lab EFX LE Loop Switcher<br>
+<sub><a href="https://github.com/jonsolberg/efx-le-loop-swither-editor">Source</a></sub>
 </td>
 </tr>
 </table>
