@@ -98,6 +98,18 @@ blurb = "Editor for the BOSS RC-500 Loop Station over its own USB port, in the b
 platform = "Web · Android · experimental"
 links = [ ["Web editor", "https://jonsolberg.github.io/rc500editor/"], ["Android app", "https://github.com/jonsolberg/rc500editor/releases/latest/download/RC500Editor.apk"] ]
 
+
+[[project]]
+repo = "efx-le-loop-swither-editor"
+name = "EFX-LE Editor"
+image = "assets/efx-le.webp"
+tagline = "Editor and live control for the Musicom Lab EFX-LE loop switcher."
+section = "music"
+emoji = "🔀"
+blurb = "A modern web editor for the Musicom Lab EFX-LE loop switcher over MIDI: all 360 presets with graphical routing (loop order, parallel mixers, spill-over), songs, sets and global settings, .syx files compatible with the official editor, and a Direct mode that plays the pedal from an on-screen copy of its panel."
+platform = "Web"
+links = [ ["Web editor", "https://jonsolberg.github.io/efx-le-loop-swither-editor/"] ]
+
 [[project]]
 repo = "midi_muppet_max"
 name = "MIDI Muppet Max"
