@@ -133,8 +133,8 @@ A small robin, a sleeping bear and a lot of ideas.<br>
 <sub><a href="https://jonsolberg.se:8080/Games/WakeTheBear/">Play</a></sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://jonsolberg.se:8080/Games/NaughtyListCaper/"><img src="assets/naughtylistcaper.webp" alt="The Naughty List Caper" width="100%"></a>
-<h3>🎅 <a href="https://jonsolberg.se:8080/Games/NaughtyListCaper/">The Naughty List Caper</a></h3>
+<a href="https://github.com/jonsolberg/naughtylistcaper"><img src="assets/naughtylistcaper.webp" alt="The Naughty List Caper" width="100%"></a>
+<h3>🎅 <a href="https://github.com/jonsolberg/naughtylistcaper">The Naughty List Caper</a></h3>
 <sub>Browser · Android</sub><br>
 Point-and-click: get Barnaby off Santa's Naughty List.<br>
 <sub><a href="https://jonsolberg.se:8080/Games/NaughtyListCaper/">Play</a> · <a href="https://jonsolberg.se:8080/Games/NaughtyListCaper/Android/NaughtyListCaper.apk">Android app</a></sub>
