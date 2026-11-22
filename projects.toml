@@ -80,10 +80,10 @@ links = [ ["Web editor", "https://jonsolberg.github.io/wamplerterraformcontrol/"
 repo = "hxstompforandroid"
 name = "HX Stomp Control"
 image = "assets/hxstomp.webp"
-tagline = "An early Android HX Edit for the Line 6 HX Stomp."
+tagline = "Play and edit the Line 6 HX Stomp from your phone or browser."
 section = "music"
 emoji = "🎚️"
-blurb = "Early, experimental step towards an Android HX Edit for the Line 6 HX Stomp: browse presets bank by bank over USB and switch with a tap."
+blurb = "Play and edit the Line 6 HX Stomp in the browser or on Android: Direct mode puts the pedal on screen over USB MIDI (footswitches, knobs, presets, snapshots, tuner, tap tempo, EXP pedals, looper), and the editor opens presets and setlists exported from HX Edit. Plus a preset list with names, a MIDI monitor and a setup guide. Experimental."
 platform = "Web · Android · experimental"
 links = [ ["Web editor", "https://jonsolberg.github.io/hxstompforandroid/"], ["Android app (test)", "https://github.com/jonsolberg/hxstompforandroid/releases/latest/download/HXStompControl.apk"] ]
 
