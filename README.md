@@ -57,13 +57,19 @@ Editor and live control for the BOSS RC-500 looper over its USB port.<br>
 </tr>
 <tr>
 <td width="50%" valign="top">
+<a href="https://github.com/jonsolberg/efx-le-loop-swither-editor"><img src="assets/efx-le.webp" alt="EFX-LE Editor" width="100%"></a>
+<h3>🔀 <a href="https://github.com/jonsolberg/efx-le-loop-swither-editor">EFX-LE Editor</a></h3>
+<sub>Web</sub><br>
+Editor and live control for the Musicom Lab EFX-LE loop switcher.<br>
+<sub><a href="https://jonsolberg.github.io/efx-le-loop-swither-editor/">Web editor</a> · <a href="https://github.com/jonsolberg/efx-le-loop-swither-editor">Source</a></sub>
+</td>
+<td width="50%" valign="top">
 <a href="https://github.com/jonsolberg/midi_muppet_max"><img src="assets/midimuppet-editor.webp" alt="MIDI Muppet Max" width="100%"></a>
 <h3>🎹 <a href="https://github.com/jonsolberg/midi_muppet_max">MIDI Muppet Max</a></h3>
 <sub>Arduino · DIY · <a href="https://github.com/jonsolberg/midi_muppet_max/releases/tag/v2.1.0">v2.1.0</a></sub><br>
 DIY MIDI foot switch you set up in the browser: pick your pedal, pick a command for every switch.<br>
 <sub><a href="https://jonsolberg.github.io/midi_muppet_max/">Web editor</a> · <a href="https://github.com/jonsolberg/midi_muppet_max#hardware">Build guide</a> · <a href="https://github.com/jonsolberg/midi_muppet_max">Source</a></sub>
 </td>
-<td width="50%"></td>
 </tr>
 </table>
 
@@ -133,19 +139,6 @@ A small robin, a sleeping bear and a lot of ideas.<br>
 Point-and-click: get Barnaby off Santa's Naughty List.<br>
 <sub><a href="https://jonsolberg.se:8080/Games/NaughtyListCaper/">Play</a> · <a href="https://jonsolberg.se:8080/Games/NaughtyListCaper/Android/NaughtyListCaper.apk">Android app</a></sub>
 </td>
-</tr>
-</table>
-
-<h2 align="center">✨ New & other</h2>
-
-<table>
-<tr>
-<td width="50%" valign="top">
-<h3>✨ <a href="https://github.com/jonsolberg/efx-le-loop-swither-editor">efx-le-loop-swither-editor</a></h3>
-Graphical web editor for the Musicom Lab EFX-LE loop switcher: presets, routing, songs, sets and global settings over MIDI SysEx, plus a live Direct mode. Runs in Chrome/Edge.<br>
-<sub><a href="https://jonsolberg.github.io/efx-le-loop-swither-editor/">Website</a> · <a href="https://github.com/jonsolberg/efx-le-loop-swither-editor">Source</a></sub>
-</td>
-<td width="50%"></td>
 </tr>
 </table>
 
