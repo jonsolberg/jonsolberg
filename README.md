@@ -59,7 +59,7 @@ Editor and live control for the BOSS RC-500 looper over its USB port.<br>
 <td width="50%" valign="top">
 <a href="https://github.com/jonsolberg/midi_muppet_max"><img src="assets/midimuppet-editor.webp" alt="MIDI Muppet Max" width="100%"></a>
 <h3>🎹 <a href="https://github.com/jonsolberg/midi_muppet_max">MIDI Muppet Max</a></h3>
-<sub>Arduino · DIY · <a href="https://github.com/jonsolberg/midi_muppet_max/releases/tag/v.1.0.0">v.1.0.0</a></sub><br>
+<sub>Arduino · DIY · <a href="https://github.com/jonsolberg/midi_muppet_max/releases/tag/v2.0.0">v2.0.0</a></sub><br>
 DIY MIDI foot switch you set up in the browser: pick your pedal, pick a command for every switch.<br>
 <sub><a href="https://jonsolberg.github.io/midi_muppet_max/">Web editor</a> · <a href="https://github.com/jonsolberg/midi_muppet_max#hardware">Build guide</a> · <a href="https://github.com/jonsolberg/midi_muppet_max">Source</a></sub>
 </td>
