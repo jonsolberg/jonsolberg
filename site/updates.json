@@ -48,70 +48,7 @@
  "updates": [
   {
    "date": "2026-11-22",
-   "repo": "plektrum",
-   "title": "Plektrum 1.38",
-   "text": "Quiz levels, E/A-string and count-up quizzes, Listen shows the input and recommends a cable, website link in About; Room for \"Advanced\" in the quiz level but…",
-   "url": "https://github.com/jonsolberg/plektrum/releases",
-   "kind": "update"
-  },
-  {
-   "date": "2026-11-22",
-   "repo": "strymoniridiumcontrol",
-   "title": "Iridium Control 1.1.9",
-   "text": "About tab; Amp description under the amp bypass setting; Install note; Web editor: the pedal looks like the real one, as in the Android app; Web editor: squa…",
-   "url": "https://github.com/jonsolberg/strymoniridiumcontrol/releases",
-   "kind": "update"
-  },
-  {
-   "date": "2026-11-22",
-   "repo": "wamplerterraformcontrol",
-   "title": "Terraform Control 1.0.6",
-   "text": "About tab; Install note; Web editor: the pedal looks like the real one, as in the Android app; Check for new versions on GitHub",
-   "url": "https://github.com/jonsolberg/wamplerterraformcontrol/releases",
-   "kind": "update"
-  },
-  {
-   "date": "2026-11-22",
-   "repo": "rc500editor",
-   "title": "RC-500 Editor 2.50",
-   "text": "Copyright and jonsolberg.se link in Help; Check for new versions on GitHub",
-   "url": "https://github.com/jonsolberg/rc500editor/releases",
-   "kind": "update"
-  },
-  {
-   "date": "2026-11-22",
-   "repo": "hxstompcontrol",
-   "title": "HX Stomp Control 0.2.5",
-   "text": "About in Help (copyright, GitHub, jonsolberg.se, Support me); Keep the app clear of the status and navigation bars; Direct mode shows the pedal as a panel wi…",
-   "url": "https://github.com/jonsolberg/hxstompcontrol/releases",
-   "kind": "update"
-  },
-  {
-   "date": "2026-11-22",
-   "repo": "midi_muppet_max",
-   "title": "MIDI Muppet Max 2.1.1",
-   "text": "Editor: more commands for the Strymon Iridium, BOSS MD-200 and RC-500, from the official MIDI documentation; Editor: MIDI Muppet Max in the MD-200 note; Andr…",
-   "url": "https://github.com/jonsolberg/midi_muppet_max/releases",
-   "kind": "update"
-  },
-  {
-   "date": "2026-11-22",
-   "repo": "levain",
-   "title": "Levain 1.6",
-   "text": "Copyright, GitHub and jonsolberg.se under Support; Check for new versions on GitHub",
-   "url": "https://github.com/jonsolberg/levain/releases",
-   "kind": "update"
-  },
-  {
-   "date": "2026-11-22",
-   "repo": "tea-timer",
-   "title": "Tea Timer 1.5",
-   "text": "GitHub and jonsolberg.se links and copyright under Support; Check for new versions on GitHub",
-   "url": "https://github.com/jonsolberg/tea-timer/releases",
-   "kind": "update"
-  },
-  {
-   "date": "2026-11-22",
+   "time": "21:24",
    "repo": "wallpaper",
    "title": "Wallpapers Android 1.5 · Linux 1.6 · Windows 1.11",
    "text": "Copyright and GitHub links; Fixed-name .deb in releases; Check for new versions on GitHub; Preview pictures from the site's Images/thumbs folder",
@@ -120,6 +57,79 @@
   },
   {
    "date": "2026-11-22",
+   "time": "14:41",
+   "repo": "wamplerterraformcontrol",
+   "title": "Terraform Control 1.0.6",
+   "text": "About tab; Install note; Web editor: the pedal looks like the real one, as in the Android app; Check for new versions on GitHub",
+   "url": "https://github.com/jonsolberg/wamplerterraformcontrol/releases",
+   "kind": "update"
+  },
+  {
+   "date": "2026-11-22",
+   "time": "14:40",
+   "repo": "strymoniridiumcontrol",
+   "title": "Iridium Control 1.1.9",
+   "text": "About tab; Amp description under the amp bypass setting; Install note; Web editor: the pedal looks like the real one, as in the Android app; Web editor: squa…",
+   "url": "https://github.com/jonsolberg/strymoniridiumcontrol/releases",
+   "kind": "update"
+  },
+  {
+   "date": "2026-11-22",
+   "time": "14:40",
+   "repo": "hxstompcontrol",
+   "title": "HX Stomp Control 0.2.5",
+   "text": "About in Help (copyright, GitHub, jonsolberg.se, Support me); Keep the app clear of the status and navigation bars; Direct mode shows the pedal as a panel wi…",
+   "url": "https://github.com/jonsolberg/hxstompcontrol/releases",
+   "kind": "update"
+  },
+  {
+   "date": "2026-11-22",
+   "time": "14:40",
+   "repo": "midi_muppet_max",
+   "title": "MIDI Muppet Max 2.1.1",
+   "text": "Editor: more commands for the Strymon Iridium, BOSS MD-200 and RC-500, from the official MIDI documentation; Editor: MIDI Muppet Max in the MD-200 note; Andr…",
+   "url": "https://github.com/jonsolberg/midi_muppet_max/releases",
+   "kind": "update"
+  },
+  {
+   "date": "2026-11-22",
+   "time": "14:40",
+   "repo": "levain",
+   "title": "Levain 1.6",
+   "text": "Copyright, GitHub and jonsolberg.se under Support; Check for new versions on GitHub",
+   "url": "https://github.com/jonsolberg/levain/releases",
+   "kind": "update"
+  },
+  {
+   "date": "2026-11-22",
+   "time": "14:40",
+   "repo": "tea-timer",
+   "title": "Tea Timer 1.5",
+   "text": "GitHub and jonsolberg.se links and copyright under Support; Check for new versions on GitHub",
+   "url": "https://github.com/jonsolberg/tea-timer/releases",
+   "kind": "update"
+  },
+  {
+   "date": "2026-11-22",
+   "time": "14:39",
+   "repo": "plektrum",
+   "title": "Plektrum 1.38",
+   "text": "Quiz levels, E/A-string and count-up quizzes, Listen shows the input and recommends a cable, website link in About; Room for \"Advanced\" in the quiz level but…",
+   "url": "https://github.com/jonsolberg/plektrum/releases",
+   "kind": "update"
+  },
+  {
+   "date": "2026-11-22",
+   "time": "14:39",
+   "repo": "rc500editor",
+   "title": "RC-500 Editor 2.50",
+   "text": "Copyright and jonsolberg.se link in Help; Check for new versions on GitHub",
+   "url": "https://github.com/jonsolberg/rc500editor/releases",
+   "kind": "update"
+  },
+  {
+   "date": "2026-11-22",
+   "time": "14:16",
    "repo": "efx-le-loop-swither-editor",
    "title": "EFX-LE Editor 1.0",
    "text": "Web editor: presets, routing, songs, sets, global settings, SysEx load/save and Direct mode; Remove the maker's brand name from the editor and its screenshots",
@@ -128,6 +138,7 @@
   },
   {
    "date": "2026-11-16",
+   "time": "11:38",
    "repo": "tactus",
    "title": "Tactus 1.0.0",
    "text": "Tactus: vibrating metronome for Garmin watches; Add Windows build script and Connect IQ Store guide; Build on GitHub Actions: fenix 7 / Instinct 2 .prg and s…",
@@ -138,14 +149,7 @@
  "history": [
   {
    "date": "2026-11-22",
-   "repo": "wallpaper",
-   "app": "Wallpapers",
-   "version": "Android 1.4 · Linux 1.5 · Windows 1.10",
-   "text": "Copyright and GitHub links; Fixed-name .deb in releases; Check for new versions on GitHub",
-   "url": "https://github.com/jonsolberg/wallpaper/releases"
-  },
-  {
-   "date": "2026-11-22",
+   "time": "21:24",
    "repo": "wallpaper",
    "app": "Wallpapers",
    "version": "Android 1.5 · Linux 1.6 · Windows 1.11",
@@ -154,6 +158,7 @@
   },
   {
    "date": "2026-11-22",
+   "time": "14:41",
    "repo": "wamplerterraformcontrol",
    "app": "Terraform Control",
    "version": "1.0.6",
@@ -162,6 +167,7 @@
   },
   {
    "date": "2026-11-22",
+   "time": "14:40",
    "repo": "tea-timer",
    "app": "Tea Timer",
    "version": "1.5",
@@ -170,22 +176,7 @@
   },
   {
    "date": "2026-11-22",
-   "repo": "rc500editor",
-   "app": "RC-500 Editor",
-   "version": "2.50",
-   "text": "Copyright and jonsolberg.se link in Help; Check for new versions on GitHub",
-   "url": "https://github.com/jonsolberg/rc500editor/releases"
-  },
-  {
-   "date": "2026-11-22",
-   "repo": "plektrum",
-   "app": "Plektrum",
-   "version": "1.38",
-   "text": "Quiz levels, E/A-string and count-up quizzes, Listen shows the input and recommends a cable, website link in About; Room for \"Advanced\" in the quiz level but…",
-   "url": "https://github.com/jonsolberg/plektrum/releases"
-  },
-  {
-   "date": "2026-11-22",
+   "time": "14:40",
    "repo": "midi_muppet_max",
    "app": "MIDI Muppet Max",
    "version": "2.1.1",
@@ -194,6 +185,7 @@
   },
   {
    "date": "2026-11-22",
+   "time": "14:40",
    "repo": "levain",
    "app": "Levain",
    "version": "1.6",
@@ -202,6 +194,7 @@
   },
   {
    "date": "2026-11-22",
+   "time": "14:40",
    "repo": "strymoniridiumcontrol",
    "app": "Iridium Control",
    "version": "1.1.9",
@@ -210,6 +203,7 @@
   },
   {
    "date": "2026-11-22",
+   "time": "14:40",
    "repo": "hxstompcontrol",
    "app": "HX Stomp Control",
    "version": "0.2.5",
@@ -218,6 +212,25 @@
   },
   {
    "date": "2026-11-22",
+   "time": "14:39",
+   "repo": "rc500editor",
+   "app": "RC-500 Editor",
+   "version": "2.50",
+   "text": "Copyright and jonsolberg.se link in Help; Check for new versions on GitHub",
+   "url": "https://github.com/jonsolberg/rc500editor/releases"
+  },
+  {
+   "date": "2026-11-22",
+   "time": "14:39",
+   "repo": "plektrum",
+   "app": "Plektrum",
+   "version": "1.38",
+   "text": "Quiz levels, E/A-string and count-up quizzes, Listen shows the input and recommends a cable, website link in About; Room for \"Advanced\" in the quiz level but…",
+   "url": "https://github.com/jonsolberg/plektrum/releases"
+  },
+  {
+   "date": "2026-11-22",
+   "time": "14:16",
    "repo": "efx-le-loop-swither-editor",
    "app": "EFX-LE Editor",
    "version": "1.0",
@@ -225,7 +238,16 @@
    "url": "https://github.com/jonsolberg/efx-le-loop-swither-editor/releases"
   },
   {
+   "date": "2026-11-22",
+   "repo": "wallpaper",
+   "app": "Wallpapers",
+   "version": "Android 1.4 · Linux 1.5 · Windows 1.10",
+   "text": "Copyright and GitHub links; Fixed-name .deb in releases; Check for new versions on GitHub",
+   "url": "https://github.com/jonsolberg/wallpaper/releases"
+  },
+  {
    "date": "2026-11-16",
+   "time": "11:38",
    "repo": "tactus",
    "app": "Tactus",
    "version": "1.0.0",
