@@ -13,9 +13,9 @@ site = "https://jonsolberg.se:8080"
 kofi = "https://ko-fi.com/jonsolberg"
 email = "github@jonsolberg.se"
 
-intro = """I make small, free apps and games: tools for musicians, a bread calculator, \
-a tea timer, wallpapers and a few games you can play in the browser. \
-The apps are open source under GPL v3."""
+intro = """I make free apps for musicians – pedal editors, a chord and scale toolbox, \
+a metronome for your watch – plus a few everyday helpers and some games you can play \
+in the browser. The apps are open source under GPL v3."""
 
 [[section]]
 id = "music"
