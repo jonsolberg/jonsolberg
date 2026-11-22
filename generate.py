@@ -12,6 +12,7 @@ import datetime as dt
 import json
 import os
 import sys
+import re
 import tomllib
 import urllib.error
 import urllib.request
@@ -20,6 +21,18 @@ USER = "jonsolberg"
 API = "https://api.github.com"
 SKIP = {USER}  # the profile repo itself
 
+
+
+PLATFORM_NAMES = {"android": "Android", "linux": "Linux", "windows": "Windows", "web": "Web", "macos": "macOS"}
+
+
+def release_label(tag):
+    """A readable version label. Tags that bundle several apps, like
+    android-1.5-linux-1.6-windows-1.11, become "Android 1.5 · Linux 1.6 · Windows 1.11"."""
+    parts = re.findall(r"([a-z]+)-v?(\d+(?:\.\d+)*)", tag.lower())
+    if len(parts) > 1 and all(p in PLATFORM_NAMES for p, _ in parts):
+        return " · ".join(f"{PLATFORM_NAMES[p]} {v}" for p, v in parts)
+    return tag
 
 def api(path):
     req = urllib.request.Request(API + path, headers={"Accept": "application/vnd.github+json"})
@@ -110,11 +123,13 @@ def main():
         else:
             main = links[0][1] if links else site
         meta = []
-        if p.get("platform"):
+        rel = r.get("_release") if r else None
+        label = release_label(rel["tag_name"]) if rel else ""
+        # a label like "Android 1.5 · Linux 1.6 · Windows 1.11" already names the platforms
+        if p.get("platform") and " · " not in label:
             meta.append(esc(p["platform"]))
-        if r and r.get("_release"):
-            rel = r["_release"]
-            meta.append(f'<a href="{rel["html_url"]}">{esc(rel["tag_name"])}</a>')
+        if rel:
+            meta.append(f'<a href="{rel["html_url"]}">{esc(label)}</a>')
         if r:
             links.append(("Source", r["html_url"]))
         tagline = p.get("tagline") or p.get("blurb") or (r.get("description") if r else "") or ""
