@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # Builds site/updates.json for jonsolberg.se: the latest version of each app, and one "update" entry
 # per app and day – the highest version released that day, with the changes of all that day's
-# versions merged – plus "history", every release with its own version number and changes, for the
+# versions merged – plus "history", every version ever published with its number and changes, for the
 # full list of changes on jonsolberg.se/changes.html. The website reads the file straight from GitHub (its own server can't reach the
 # GitHub API). Run by .github/workflows/site-data.yml every hour.
 # Copyright (C) 2026 Jon Solberg - GPL v3 or later, see LICENSE.
@@ -18,7 +18,6 @@ APPS = {
     'efx-le-loop-swither-editor': 'EFX-LE Editor',
 }
 DAYS_PER_APP = 6
-HISTORY_PER_APP = 40   # every release, for the full list of changes (site/changes page)
 SKIP = re.compile(r'^(Merge|Update project overview|Cache-bust|Screenshot|README|Release workflow|Rename|Docs?:|Bump)', re.I)
 
 
@@ -76,7 +75,7 @@ def main():
     path = 'site/updates.json'
     old = open(path).read() if os.path.exists(path) else ''
     try:
-        known = {(h['repo'], h['tag']): h for h in json.loads(old).get('history', [])}
+        known = {(h['repo'], h['version']): h for h in json.loads(old).get('history', [])}
     except Exception:
         known = {}
     versions, updates, history = {}, [], []
@@ -89,22 +88,6 @@ def main():
         if not rels:
             continue
         rels.sort(key=lambda r: r['published_at'], reverse=True)
-        # one entry per release, with its version number and the changes since the release before it;
-        # releases already in the file keep their text, so only new ones cost API calls
-        for i, r in enumerate(rels[:HISTORY_PER_APP]):
-            h = known.get((repo, r['tag_name']))
-            if h is None:
-                end = datetime.fromisoformat(r['published_at'].replace('Z', '+00:00'))
-                prev = rels[i + 1] if i + 1 < len(rels) else None
-                start = datetime.fromisoformat(prev['published_at'].replace('Z', '+00:00')) if prev else end - timedelta(days=30)
-                try:
-                    text = changes_between(repo, start, end, 400)
-                except Exception as e:
-                    print(f'{repo} {r["tag_name"]}: {e}', file=sys.stderr)
-                    continue
-                h = {'date': local_day(r['published_at']), 'repo': repo, 'app': name, 'tag': r['tag_name'],
-                     'version': version(r['tag_name']), 'text': text, 'url': r['html_url'], 'kind': 'release'}
-            history.append(h)
         versions[repo] = {'version': version(rels[0]['tag_name']), 'date': local_day(rels[0]['published_at'])}
         by_day = {}
         for r in rels:
@@ -113,10 +96,14 @@ def main():
             if best is None or vkey(v) > vkey(best['v']):
                 by_day[d] = {'v': v}
         for d in sorted(by_day, reverse=True)[:DAYS_PER_APP]:
-            updates.append({'date': d, 'repo': repo, 'title': f"{name} {by_day[d]['v']}", 'text': changes(repo, d),
-                            'url': f'https://github.com/{USER}/{repo}/releases', 'kind': 'update'})
+            u = {'date': d, 'repo': repo, 'title': f"{name} {by_day[d]['v']}", 'text': changes(repo, d),
+                 'url': f'https://github.com/{USER}/{repo}/releases', 'kind': 'update'}
+            updates.append(u)
+            # the full list keeps every version ever seen (the releases are replaced, so the file is the record)
+            known[(repo, by_day[d]['v'])] = {'date': d, 'repo': repo, 'app': name, 'version': by_day[d]['v'],
+                                             'text': u['text'], 'url': u['url']}
     updates.sort(key=lambda u: u['date'], reverse=True)
-    history.sort(key=lambda h: (h['date'], vkey(h['version'])), reverse=True)
+    history = sorted(known.values(), key=lambda h: (h['date'], h['app']), reverse=True)
     data = {'versions': versions, 'updates': updates, 'history': history}
     os.makedirs('site', exist_ok=True)
     new = json.dumps(data, ensure_ascii=False, indent=1) + '\n'
