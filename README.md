@@ -41,7 +41,7 @@ Editor and presets for the Wampler Terraform pedal.<br>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/jonsolberg/hxstompforandroid"><img src="assets/hxstomp-v4.webp" alt="HX Stomp Control" width="100%"></a>
+<a href="https://github.com/jonsolberg/hxstompforandroid"><img src="assets/hxstomp-v5.webp" alt="HX Stomp Control" width="100%"></a>
 <h3>🎚️ <a href="https://github.com/jonsolberg/hxstompforandroid">HX Stomp Control</a></h3>
 <sub>Web · Android · experimental · <a href="https://github.com/jonsolberg/hxstompforandroid/releases/tag/v0.2.3">v0.2.3</a></sub><br>
 Play and edit the Line 6 HX Stomp from your phone or browser.<br>
@@ -59,7 +59,7 @@ Editor and live control for the BOSS RC-500 looper over its USB port.<br>
 <td width="50%" valign="top">
 <a href="https://github.com/jonsolberg/midi_muppet_max"><img src="assets/midimuppet-editor.webp" alt="MIDI Muppet Max" width="100%"></a>
 <h3>🎹 <a href="https://github.com/jonsolberg/midi_muppet_max">MIDI Muppet Max</a></h3>
-<sub>Arduino · DIY · <a href="https://github.com/jonsolberg/midi_muppet_max/releases/tag/v2.0.1">v2.0.1</a></sub><br>
+<sub>Arduino · DIY · <a href="https://github.com/jonsolberg/midi_muppet_max/releases/tag/v2.1.0">v2.1.0</a></sub><br>
 DIY MIDI foot switch you set up in the browser: pick your pedal, pick a command for every switch.<br>
 <sub><a href="https://jonsolberg.github.io/midi_muppet_max/">Web editor</a> · <a href="https://github.com/jonsolberg/midi_muppet_max#hardware">Build guide</a> · <a href="https://github.com/jonsolberg/midi_muppet_max">Source</a></sub>
 </td>
