@@ -41,7 +41,7 @@ Editor and presets for the Wampler Terraform pedal.<br>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/jonsolberg/hxstompcontrol"><img src="assets/hxstomp-v5.webp" alt="HX Stomp Control" width="100%"></a>
+<a href="https://github.com/jonsolberg/hxstompcontrol"><img src="assets/hxstomp-v6.webp" alt="HX Stomp Control" width="100%"></a>
 <h3>🎚️ <a href="https://github.com/jonsolberg/hxstompcontrol">HX Stomp Control</a></h3>
 <sub>Web · Android · experimental · <a href="https://github.com/jonsolberg/hxstompcontrol/releases/tag/v0.2.5">v0.2.5</a></sub><br>
 Play and edit the Line 6 HX Stomp from your phone or browser.<br>
