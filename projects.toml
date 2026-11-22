@@ -79,7 +79,7 @@ links = [ ["Web editor", "https://jonsolberg.github.io/wamplerterraformcontrol/"
 [[project]]
 repo = "hxstompforandroid"
 name = "HX Stomp Control"
-image = "assets/hxstomp-v2.webp"
+image = "assets/hxstomp-v3.webp"
 tagline = "Play and edit the Line 6 HX Stomp from your phone or browser."
 section = "music"
 emoji = "🎚️"
