@@ -37,7 +37,7 @@
    "date": "2026-11-22"
   },
   "wallpaper": {
-   "version": "Android 1.4 · Linux 1.5 · Windows 1.10",
+   "version": "Android 1.5 · Linux 1.6 · Windows 1.11",
    "date": "2026-11-22"
   },
   "efx-le-loop-swither-editor": {
@@ -113,8 +113,8 @@
   {
    "date": "2026-11-22",
    "repo": "wallpaper",
-   "title": "Wallpapers Android 1.4 · Linux 1.5 · Windows 1.10",
-   "text": "Copyright and GitHub links; Fixed-name .deb in releases; Check for new versions on GitHub",
+   "title": "Wallpapers Android 1.5 · Linux 1.6 · Windows 1.11",
+   "text": "Copyright and GitHub links; Fixed-name .deb in releases; Check for new versions on GitHub; Preview pictures from the site's Images/thumbs folder",
    "url": "https://github.com/jonsolberg/wallpaper/releases",
    "kind": "update"
   },
@@ -142,6 +142,14 @@
    "app": "Wallpapers",
    "version": "Android 1.4 · Linux 1.5 · Windows 1.10",
    "text": "Copyright and GitHub links; Fixed-name .deb in releases; Check for new versions on GitHub",
+   "url": "https://github.com/jonsolberg/wallpaper/releases"
+  },
+  {
+   "date": "2026-11-22",
+   "repo": "wallpaper",
+   "app": "Wallpapers",
+   "version": "Android 1.5 · Linux 1.6 · Windows 1.11",
+   "text": "Copyright and GitHub links; Fixed-name .deb in releases; Check for new versions on GitHub; Preview pictures from the site's Images/thumbs folder",
    "url": "https://github.com/jonsolberg/wallpaper/releases"
   },
   {
