@@ -41,7 +41,7 @@ Editor and presets for the Wampler Terraform pedal.<br>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/jonsolberg/hxstompforandroid"><img src="assets/hxstomp-v2.webp" alt="HX Stomp Control" width="100%"></a>
+<a href="https://github.com/jonsolberg/hxstompforandroid"><img src="assets/hxstomp-v3.webp" alt="HX Stomp Control" width="100%"></a>
 <h3>🎚️ <a href="https://github.com/jonsolberg/hxstompforandroid">HX Stomp Control</a></h3>
 <sub>Web · Android · experimental · <a href="https://github.com/jonsolberg/hxstompforandroid/releases/tag/v0.2.3">v0.2.3</a></sub><br>
 Play and edit the Line 6 HX Stomp from your phone or browser.<br>
@@ -142,8 +142,8 @@ Point-and-click: get Barnaby off Santa's Naughty List.<br>
 <tr>
 <td width="50%" valign="top">
 <h3>✨ <a href="https://github.com/jonsolberg/efx-le-loop-swither-editor">efx-le-loop-swither-editor</a></h3>
-A web based editor for the Musicom Lab EFX LE Loop Switcher<br>
-<sub><a href="https://github.com/jonsolberg/efx-le-loop-swither-editor">Source</a></sub>
+Graphical web editor for the Musicom Lab EFX-LE loop switcher: presets, routing, songs, sets and global settings over MIDI SysEx, plus a live Direct mode. Runs in Chrome/Edge.<br>
+<sub><a href="https://jonsolberg.github.io/efx-le-loop-swither-editor/">Website</a> · <a href="https://github.com/jonsolberg/efx-le-loop-swither-editor">Source</a></sub>
 </td>
 <td width="50%"></td>
 </tr>
