@@ -118,8 +118,8 @@ tagline = "DIY MIDI foot switch you set up in the browser: pick your pedal, pick
 section = "music"
 emoji = "🎹"
 blurb = "A DIY Arduino MIDI foot switch with four buttons (or two, as MIDI Muppet HX), based on Matthias Wientapper's MIDI Muppet HX. Commands for the BOSS MD-200 and RC-500, Line 6 HX Stomp, Strymon Iridium and TimeLine, Wampler Terraform or any MIDI device."
-platform = "Arduino · DIY"
-links = [ ["Web editor", "https://jonsolberg.github.io/midi_muppet_max/"], ["Build guide", "https://github.com/jonsolberg/midi_muppet_max#hardware"] ]
+platform = "Arduino · DIY · Android"
+links = [ ["Web editor", "https://jonsolberg.github.io/midi_muppet_max/"], ["Android app", "https://github.com/jonsolberg/midi_muppet_max/releases/latest/download/MidiMuppetMax.apk"], ["Build guide", "https://github.com/jonsolberg/midi_muppet_max#hardware"] ]
 
 # --- Everyday tools ------------------------------------------------------
 
