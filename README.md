@@ -11,9 +11,9 @@
 <td width="50%" valign="top">
 <a href="https://github.com/jonsolberg/plektrum"><img src="assets/plektrum.webp" alt="Plektrum" width="100%"></a>
 <h3>🎸 <a href="https://github.com/jonsolberg/plektrum">Plektrum</a></h3>
-<sub>Android · <a href="https://github.com/jonsolberg/plektrum/releases/tag/v1.34">v1.34</a></sub><br>
+<sub>Android · <a href="https://github.com/jonsolberg/plektrum/releases/tag/v1.35">v1.35</a></sub><br>
 Chords, tuner, scales and progressions for every string instrument.<br>
-<sub><a href="https://jonsolberg.se:8080/Software/Plektrum.apk">Android app</a> · <a href="https://github.com/jonsolberg/plektrum">Source</a></sub>
+<sub><a href="https://github.com/jonsolberg/plektrum/releases/latest/download/Plektrum.apk">Android app</a> · <a href="https://github.com/jonsolberg/plektrum">Source</a></sub>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/jonsolberg/tactus"><img src="assets/tactus.webp" alt="Tactus" width="100%"></a>
@@ -27,41 +27,41 @@ A metronome you feel: it buzzes the beat on your Garmin watch.<br>
 <td width="50%" valign="top">
 <a href="https://github.com/jonsolberg/strymoniridiumcontrol"><img src="assets/iridium.webp" alt="Iridium Control" width="100%"></a>
 <h3>🎛️ <a href="https://github.com/jonsolberg/strymoniridiumcontrol">Iridium Control</a></h3>
-<sub>Android · <a href="https://github.com/jonsolberg/strymoniridiumcontrol/releases/tag/v1.1.7">v1.1.7</a></sub><br>
+<sub>Web · Android · <a href="https://github.com/jonsolberg/strymoniridiumcontrol/releases/tag/v1.1.8">v1.1.8</a></sub><br>
 Editor and 300-preset library for the Strymon Iridium.<br>
-<sub><a href="https://jonsolberg.se:8080/Software/IridiumControl.apk">Android app</a> · <a href="https://github.com/jonsolberg/strymoniridiumcontrol">Source</a></sub>
+<sub><a href="https://jonsolberg.github.io/strymoniridiumcontrol/">Web editor</a> · <a href="https://github.com/jonsolberg/strymoniridiumcontrol/releases/latest/download/IridiumControl.apk">Android app</a> · <a href="https://github.com/jonsolberg/strymoniridiumcontrol">Source</a></sub>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/jonsolberg/wamplerterraformcontrol"><img src="assets/terraform.webp" alt="Terraform Control" width="100%"></a>
 <h3>🌀 <a href="https://github.com/jonsolberg/wamplerterraformcontrol">Terraform Control</a></h3>
-<sub>Android · <a href="https://github.com/jonsolberg/wamplerterraformcontrol/releases/tag/v1.0.4">v1.0.4</a></sub><br>
+<sub>Web · Android · <a href="https://github.com/jonsolberg/wamplerterraformcontrol/releases/tag/v1.0.5">v1.0.5</a></sub><br>
 Editor and presets for the Wampler Terraform pedal.<br>
-<sub><a href="https://jonsolberg.se:8080/Software/TerraformControl.apk">Android app</a> · <a href="https://github.com/jonsolberg/wamplerterraformcontrol">Source</a></sub>
+<sub><a href="https://jonsolberg.github.io/wamplerterraformcontrol/">Web editor</a> · <a href="https://github.com/jonsolberg/wamplerterraformcontrol/releases/latest/download/TerraformControl.apk">Android app</a> · <a href="https://github.com/jonsolberg/wamplerterraformcontrol">Source</a></sub>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jonsolberg/hxstompforandroid"><img src="assets/hxstomp.webp" alt="HX Stomp Control" width="100%"></a>
 <h3>🎚️ <a href="https://github.com/jonsolberg/hxstompforandroid">HX Stomp Control</a></h3>
-<sub>Android · experimental · <a href="https://github.com/jonsolberg/hxstompforandroid/releases/tag/v0.2.0">v0.2.0</a></sub><br>
+<sub>Web · Android · experimental · <a href="https://github.com/jonsolberg/hxstompforandroid/releases/tag/v0.2.1">v0.2.1</a></sub><br>
 An early Android HX Edit for the Line 6 HX Stomp.<br>
-<sub><a href="https://github.com/jonsolberg/hxstompforandroid/releases/latest/download/HXStompControl.apk">Android app (test)</a> · <a href="https://github.com/jonsolberg/hxstompforandroid">Source</a></sub>
+<sub><a href="https://jonsolberg.github.io/hxstompforandroid/">Web editor</a> · <a href="https://github.com/jonsolberg/hxstompforandroid/releases/latest/download/HXStompControl.apk">Android app (test)</a> · <a href="https://github.com/jonsolberg/hxstompforandroid">Source</a></sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/jonsolberg/bossrc500editor"><img src="assets/rc500.webp" alt="RC-500 Editor" width="100%"></a>
-<h3>🔁 <a href="https://github.com/jonsolberg/bossrc500editor">RC-500 Editor</a></h3>
-<sub>Web · Android · experimental</sub><br>
+<a href="https://github.com/jonsolberg/rc500editor"><img src="assets/rc500.webp" alt="RC-500 Editor" width="100%"></a>
+<h3>🔁 <a href="https://github.com/jonsolberg/rc500editor">RC-500 Editor</a></h3>
+<sub>Web · Android · experimental · <a href="https://github.com/jonsolberg/rc500editor/releases/tag/v2.49">v2.49</a></sub><br>
 Editor and live control for the BOSS RC-500 looper over its USB port.<br>
-<sub><a href="https://jonsolberg.github.io/bossrc500editor/">Web editor</a> · <a href="https://github.com/jonsolberg/bossrc500editor/releases/latest/download/RC500Editor.apk">Android app</a></sub>
+<sub><a href="https://jonsolberg.github.io/rc500editor/">Web editor</a> · <a href="https://github.com/jonsolberg/rc500editor/releases/latest/download/RC500Editor.apk">Android app</a> · <a href="https://github.com/jonsolberg/rc500editor">Source</a></sub>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/jonsolberg/midi_muppet_multi_4btn"><img src="assets/midimuppet-editor.webp" alt="MIDI Muppet 4btn" width="100%"></a>
-<h3>🎹 <a href="https://github.com/jonsolberg/midi_muppet_multi_4btn">MIDI Muppet 4btn</a></h3>
-<sub>Arduino · DIY</sub><br>
-DIY four button MIDI foot switch you set up in the browser – HX Stomp, RC-500, Terraform.<br>
-<sub><a href="https://jonsolberg.se:8080/MidiMuppet/">Web editor</a> · <a href="https://github.com/jonsolberg/midi_muppet_multi_4btn#hardware">Build guide</a></sub>
+<a href="https://github.com/jonsolberg/midi_muppet_max"><img src="assets/midimuppet-editor.webp" alt="MIDI Muppet Max" width="100%"></a>
+<h3>🎹 <a href="https://github.com/jonsolberg/midi_muppet_max">MIDI Muppet Max</a></h3>
+<sub>Arduino · DIY · <a href="https://github.com/jonsolberg/midi_muppet_max/releases/tag/v.1.0.0">v.1.0.0</a></sub><br>
+DIY MIDI foot switch you set up in the browser: pick your pedal, pick a command for every switch.<br>
+<sub><a href="https://jonsolberg.github.io/midi_muppet_max/">Web editor</a> · <a href="https://github.com/jonsolberg/midi_muppet_max#hardware">Build guide</a> · <a href="https://github.com/jonsolberg/midi_muppet_max">Source</a></sub>
 </td>
 <td width="50%"></td>
 </tr>
@@ -74,25 +74,25 @@ DIY four button MIDI foot switch you set up in the browser – HX Stomp, RC-500,
 <td width="50%" valign="top">
 <a href="https://github.com/jonsolberg/levain"><img src="assets/levain.webp" alt="Levain" width="100%"></a>
 <h3>🍞 <a href="https://github.com/jonsolberg/levain">Levain</a></h3>
-<sub>Android · <a href="https://github.com/jonsolberg/levain/releases/tag/v1.4">v1.4</a></sub><br>
+<sub>Android · <a href="https://github.com/jonsolberg/levain/releases/tag/v1.5">v1.5</a></sub><br>
 Bread calculator with baker's percentages and step timers.<br>
-<sub><a href="https://jonsolberg.se:8080/Software/Levain.apk">Android app</a> · <a href="https://github.com/jonsolberg/levain">Source</a></sub>
+<sub><a href="https://github.com/jonsolberg/levain/releases/latest/download/Levain.apk">Android app</a> · <a href="https://github.com/jonsolberg/levain">Source</a></sub>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/jonsolberg/tea-timer"><img src="assets/teatimer.webp" alt="Tea Timer" width="100%"></a>
 <h3>🍵 <a href="https://github.com/jonsolberg/tea-timer">Tea Timer</a></h3>
-<sub>Android · <a href="https://github.com/jonsolberg/tea-timer/releases/tag/v1.3">v1.3</a></sub><br>
+<sub>Android · <a href="https://github.com/jonsolberg/tea-timer/releases/tag/v1.4">v1.4</a></sub><br>
 Steep times and temperatures for eleven kinds of tea.<br>
-<sub><a href="https://jonsolberg.se:8080/Software/TeaTimer.apk">Android app</a> · <a href="https://github.com/jonsolberg/tea-timer">Source</a></sub>
+<sub><a href="https://github.com/jonsolberg/tea-timer/releases/latest/download/TeaTimer.apk">Android app</a> · <a href="https://github.com/jonsolberg/tea-timer">Source</a></sub>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jonsolberg/wallpaper"><img src="assets/wallpapers.webp" alt="Wallpapers" width="100%"></a>
 <h3>🖼️ <a href="https://github.com/jonsolberg/wallpaper">Wallpapers</a></h3>
-<sub>Android · Windows · Linux · <a href="https://github.com/jonsolberg/wallpaper/releases/tag/android-1.2-linux-1.4-windows-1.9">android-1.2-linux-1.4-windows-1.9</a></sub><br>
+<sub>Android · Windows · Linux · <a href="https://github.com/jonsolberg/wallpaper/releases/tag/android-1.3-linux-1.5-windows-1.10">android-1.3-linux-1.5-windows-1.10</a></sub><br>
 A fresh wallpaper from jonsolberg.se, every day.<br>
-<sub><a href="https://jonsolberg.se:8080/Software/jonsolberg-wallpapers-1.0.apk">Android</a> · <a href="https://jonsolberg.se:8080/Software/Wallpapers-Windows.exe">Windows</a> · <a href="https://jonsolberg.se:8080/Wallpapers/">Browse wallpapers</a> · <a href="https://github.com/jonsolberg/wallpaper">Source</a></sub>
+<sub><a href="https://github.com/jonsolberg/wallpaper/releases/latest/download/Wallpapers.apk">Android</a> · <a href="https://github.com/jonsolberg/wallpaper/releases/latest/download/Wallpapers-Windows.exe">Windows</a> · <a href="https://github.com/jonsolberg/wallpaper/releases/latest/download/jonsolberg-wallpapers_all.deb">Linux</a> · <a href="https://jonsolberg.se:8080/Wallpapers/">Browse wallpapers</a> · <a href="https://github.com/jonsolberg/wallpaper">Source</a></sub>
 </td>
 <td width="50%"></td>
 </tr>
@@ -139,20 +139,6 @@ Point-and-click: get Barnaby off Santa's Naughty List.<br>
 <h2 align="center">✨ New & other</h2>
 
 <table>
-<tr>
-<td width="50%" valign="top">
-<h3>✨ <a href="https://github.com/jonsolberg/midi_muppet_max">midi_muppet_max</a></h3>
-<sub><a href="https://github.com/jonsolberg/midi_muppet_max/releases/tag/v.1.0.0">v.1.0.0</a></sub><br>
-Four button Arduino MIDI foot switch you set up in the browser – for HX Stomp, BOSS RC-500, Wampler Terraform or any MIDI device. Based on MIDI Muppet HX.<br>
-<sub><a href="https://jonsolberg.se:8080/MidiMuppet/">Website</a> · <a href="https://github.com/jonsolberg/midi_muppet_max">Source</a></sub>
-</td>
-<td width="50%" valign="top">
-<h3>✨ <a href="https://github.com/jonsolberg/rc500editor">rc500editor</a></h3>
-<sub><a href="https://github.com/jonsolberg/rc500editor/releases/tag/v2.48">v2.48</a></sub><br>
-Editor for the BOSS RC-500 Loop Station, in the browser and as an Android app: edit memories, rhythms and settings, and back up and restore the pedal over USB.<br>
-<sub><a href="https://jonsolberg.github.io/rc500editor/">Website</a> · <a href="https://github.com/jonsolberg/rc500editor">Source</a></sub>
-</td>
-</tr>
 <tr>
 <td width="50%" valign="top">
 <h3>✨ <a href="https://github.com/jonsolberg/efx-le-loop-swither-editor">efx-le-loop-swither-editor</a></h3>
