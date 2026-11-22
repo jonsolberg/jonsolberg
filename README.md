@@ -11,7 +11,7 @@
 <td width="50%" valign="top">
 <a href="https://github.com/jonsolberg/plektrum"><img src="assets/plektrum.webp" alt="Plektrum" width="100%"></a>
 <h3>🎸 <a href="https://github.com/jonsolberg/plektrum">Plektrum</a></h3>
-<sub>Android · <a href="https://github.com/jonsolberg/plektrum/releases/tag/v1.35">v1.35</a></sub><br>
+<sub>Android · <a href="https://github.com/jonsolberg/plektrum/releases/tag/v1.37">v1.37</a></sub><br>
 Chords, tuner, scales and progressions for every string instrument.<br>
 <sub><a href="https://github.com/jonsolberg/plektrum/releases/latest/download/Plektrum.apk">Android app</a> · <a href="https://github.com/jonsolberg/plektrum">Source</a></sub>
 </td>
@@ -43,14 +43,14 @@ Editor and presets for the Wampler Terraform pedal.<br>
 <td width="50%" valign="top">
 <a href="https://github.com/jonsolberg/hxstompforandroid"><img src="assets/hxstomp.webp" alt="HX Stomp Control" width="100%"></a>
 <h3>🎚️ <a href="https://github.com/jonsolberg/hxstompforandroid">HX Stomp Control</a></h3>
-<sub>Web · Android · experimental · <a href="https://github.com/jonsolberg/hxstompforandroid/releases/tag/v0.2.1">v0.2.1</a></sub><br>
-An early Android HX Edit for the Line 6 HX Stomp.<br>
+<sub>Web · Android · experimental · <a href="https://github.com/jonsolberg/hxstompforandroid/releases/tag/v0.2.3">v0.2.3</a></sub><br>
+Play and edit the Line 6 HX Stomp from your phone or browser.<br>
 <sub><a href="https://jonsolberg.github.io/hxstompforandroid/">Web editor</a> · <a href="https://github.com/jonsolberg/hxstompforandroid/releases/latest/download/HXStompControl.apk">Android app (test)</a> · <a href="https://github.com/jonsolberg/hxstompforandroid">Source</a></sub>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/jonsolberg/rc500editor"><img src="assets/rc500.webp" alt="RC-500 Editor" width="100%"></a>
 <h3>🔁 <a href="https://github.com/jonsolberg/rc500editor">RC-500 Editor</a></h3>
-<sub>Web · Android · <a href="https://github.com/jonsolberg/rc500editor/releases/tag/v2.49">v2.49</a></sub><br>
+<sub>Web · Android · experimental · <a href="https://github.com/jonsolberg/rc500editor/releases/tag/v2.49">v2.49</a></sub><br>
 Editor and live control for the BOSS RC-500 looper over its USB port.<br>
 <sub><a href="https://jonsolberg.github.io/rc500editor/">Web editor</a> · <a href="https://github.com/jonsolberg/rc500editor/releases/latest/download/RC500Editor.apk">Android app</a> · <a href="https://github.com/jonsolberg/rc500editor">Source</a></sub>
 </td>
@@ -59,7 +59,7 @@ Editor and live control for the BOSS RC-500 looper over its USB port.<br>
 <td width="50%" valign="top">
 <a href="https://github.com/jonsolberg/midi_muppet_max"><img src="assets/midimuppet-editor.webp" alt="MIDI Muppet Max" width="100%"></a>
 <h3>🎹 <a href="https://github.com/jonsolberg/midi_muppet_max">MIDI Muppet Max</a></h3>
-<sub>Arduino · DIY · <a href="https://github.com/jonsolberg/midi_muppet_max/releases/tag/v2.0.0">v2.0.0</a></sub><br>
+<sub>Arduino · DIY · <a href="https://github.com/jonsolberg/midi_muppet_max/releases/tag/v2.0.1">v2.0.1</a></sub><br>
 DIY MIDI foot switch you set up in the browser: pick your pedal, pick a command for every switch.<br>
 <sub><a href="https://jonsolberg.github.io/midi_muppet_max/">Web editor</a> · <a href="https://github.com/jonsolberg/midi_muppet_max#hardware">Build guide</a> · <a href="https://github.com/jonsolberg/midi_muppet_max">Source</a></sub>
 </td>
