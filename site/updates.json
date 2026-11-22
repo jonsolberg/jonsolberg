@@ -39,6 +39,10 @@
   "wallpaper": {
    "version": "Android 1.3 · Linux 1.5 · Windows 1.10",
    "date": "2026-11-22"
+  },
+  "efx-le-loop-swither-editor": {
+   "version": "1.0",
+   "date": "2026-11-22"
   }
  },
  "updates": [
@@ -112,6 +116,14 @@
    "title": "Wallpapers Android 1.3 · Linux 1.5 · Windows 1.10",
    "text": "Copyright and GitHub links; Fixed-name .deb in releases",
    "url": "https://github.com/jonsolberg/wallpaper/releases",
+   "kind": "update"
+  },
+  {
+   "date": "2026-11-22",
+   "repo": "efx-le-loop-swither-editor",
+   "title": "EFX-LE Editor 1.0",
+   "text": "Web editor: presets, routing, songs, sets, global settings, SysEx load/save and Direct mode",
+   "url": "https://github.com/jonsolberg/efx-le-loop-swither-editor/releases",
    "kind": "update"
   },
   {
