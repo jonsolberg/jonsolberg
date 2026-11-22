@@ -40,6 +40,10 @@ def vkey(v):
     return [int(x) for x in re.findall(r'\d+', v)]
 
 
+def local_time(iso):
+    return datetime.fromisoformat(iso.replace('Z', '+00:00')).astimezone(TZ).strftime('%H:%M')
+
+
 def local_day(iso):
     return datetime.fromisoformat(iso.replace('Z', '+00:00')).astimezone(TZ).date().isoformat()
 
@@ -94,16 +98,16 @@ def main():
             d, v = local_day(r['published_at']), version(r['tag_name'])
             best = by_day.get(d)
             if best is None or vkey(v) > vkey(best['v']):
-                by_day[d] = {'v': v}
+                by_day[d] = {'v': v, 't': local_time(r['published_at'])}
         for d in sorted(by_day, reverse=True)[:DAYS_PER_APP]:
-            u = {'date': d, 'repo': repo, 'title': f"{name} {by_day[d]['v']}", 'text': changes(repo, d),
+            u = {'date': d, 'time': by_day[d]['t'], 'repo': repo, 'title': f"{name} {by_day[d]['v']}", 'text': changes(repo, d),
                  'url': f'https://github.com/{USER}/{repo}/releases', 'kind': 'update'}
             updates.append(u)
             # the full list keeps every version ever seen (the releases are replaced, so the file is the record)
-            known[(repo, by_day[d]['v'])] = {'date': d, 'repo': repo, 'app': name, 'version': by_day[d]['v'],
+            known[(repo, by_day[d]['v'])] = {'date': d, 'time': by_day[d]['t'], 'repo': repo, 'app': name, 'version': by_day[d]['v'],
                                              'text': u['text'], 'url': u['url']}
-    updates.sort(key=lambda u: u['date'], reverse=True)
-    history = sorted(known.values(), key=lambda h: (h['date'], h['app']), reverse=True)
+    updates.sort(key=lambda u: (u['date'], u['time']), reverse=True)
+    history = sorted(known.values(), key=lambda h: (h['date'], h.get('time', ''), h['app']), reverse=True)
     data = {'versions': versions, 'updates': updates, 'history': history}
     os.makedirs('site', exist_ok=True)
     new = json.dumps(data, ensure_ascii=False, indent=1) + '\n'
