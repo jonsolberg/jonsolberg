@@ -96,7 +96,7 @@ Steep times and temperatures for eleven kinds of tea.<br>
 <td width="50%" valign="top">
 <a href="https://github.com/jonsolberg/wallpaper"><img src="assets/wallpapers.webp" alt="Wallpapers" width="100%"></a>
 <h3>🖼️ <a href="https://github.com/jonsolberg/wallpaper">Wallpapers</a></h3>
-<sub>Android · Windows · Linux · <a href="https://github.com/jonsolberg/wallpaper/releases/tag/android-1.4-linux-1.5-windows-1.10">android-1.4-linux-1.5-windows-1.10</a></sub><br>
+<sub><a href="https://github.com/jonsolberg/wallpaper/releases/tag/android-1.5-linux-1.6-windows-1.11">Android 1.5 · Linux 1.6 · Windows 1.11</a></sub><br>
 A fresh wallpaper from jonsolberg.se, every day.<br>
 <sub><a href="https://github.com/jonsolberg/wallpaper/releases/latest/download/Wallpapers.apk">Android</a> · <a href="https://github.com/jonsolberg/wallpaper/releases/latest/download/Wallpapers-Windows.exe">Windows</a> · <a href="https://github.com/jonsolberg/wallpaper/releases/latest/download/jonsolberg-wallpapers_all.deb">Linux</a> · <a href="https://jonsolberg.se:8080/Wallpapers/">Browse wallpapers</a> · <a href="https://github.com/jonsolberg/wallpaper">Source</a></sub>
 </td>
