@@ -122,7 +122,7 @@
    "date": "2026-11-22",
    "repo": "efx-le-loop-swither-editor",
    "title": "EFX-LE Editor 1.0",
-   "text": "Web editor: presets, routing, songs, sets, global settings, SysEx load/save and Direct mode",
+   "text": "Web editor: presets, routing, songs, sets, global settings, SysEx load/save and Direct mode; Remove the maker's brand name from the editor and its screenshots",
    "url": "https://github.com/jonsolberg/efx-le-loop-swither-editor/releases",
    "kind": "update"
   },
@@ -133,6 +133,118 @@
    "text": "Tactus: vibrating metronome for Garmin watches; Add Windows build script and Connect IQ Store guide; Build on GitHub Actions: fenix 7 / Instinct 2 .prg and s…",
    "url": "https://github.com/jonsolberg/tactus/releases",
    "kind": "update"
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-11-22",
+   "repo": "rc500editor",
+   "app": "RC-500 Editor",
+   "tag": "v2.50",
+   "version": "2.50",
+   "text": "BOSS RC-500 editor: web version and Android app; Show the value next to large ASSIGN min/max numbers (tempo, loop length); Pages workflow: note the published URL; Direct mode: play the RC-500 live from an on-screen copy of its panel; Direct mode: red RC-500 panel laid out like the real pedal; Direct mode: footswitches drawn like in Iridium Control; Direct mode: send tempo as MIDI clock (tap TEM…",
+   "url": "https://github.com/jonsolberg/rc500editor/releases/tag/v2.50",
+   "kind": "release"
+  },
+  {
+   "date": "2026-11-22",
+   "repo": "midi_muppet_max",
+   "app": "MIDI Muppet Max",
+   "tag": "v2.1.1",
+   "version": "2.1.1",
+   "text": "Four button MIDI Muppet for HX Stomp, BOSS RC-500 and Wampler Terraform; Web editor and universal config firmware; Editor: support the original two button MIDI Muppet HX; Editor: technical log, restart the Arduino between bootloader sync rounds; Editor: accept ATmega168PA and ATmega328 chips; LED type (common anode) and light-while-held LED mode; Editor: keep layout with long log lines, remembe…",
+   "url": "https://github.com/jonsolberg/midi_muppet_max/releases/tag/v2.1.1",
+   "kind": "release"
+  },
+  {
+   "date": "2026-11-22",
+   "repo": "plektrum",
+   "app": "Plektrum",
+   "tag": "v1.38",
+   "version": "1.38",
+   "text": "Chords, studio, circle of fifths, scales, tuner and metronome; Tuner: strobe view, FFT pitch detection, tune up/down hints, sensitivity, steadier string choice; Chord charts show notes and intervals; Version 1.1; Chord charts: fret numbers at the marker frets, inlay dots, notes spelled in the chord's key; Studio: time signatures, strumming patterns, drum beats, swing, count-in and a live step g…",
+   "url": "https://github.com/jonsolberg/plektrum/releases/tag/v1.38",
+   "kind": "release"
+  },
+  {
+   "date": "2026-11-22",
+   "repo": "levain",
+   "app": "Levain",
+   "tag": "v1.6",
+   "version": "1.6",
+   "text": "Offline sourdough calculator for Android; Grams only: remove ounces option; License under GPL-3.0-or-later; Add an on-demand emulator screenshot workflow; Sign releases with the release key from GitHub secrets; Add a 'Buy me a beer' Ko-fi link; Built-in step timers instead of the phone's clock app; Make timers easier to find; Support link: “Support me on Ko-fi” instead of “Buy me a beer”; Copyr…",
+   "url": "https://github.com/jonsolberg/levain/releases/tag/v1.6",
+   "kind": "release"
+  },
+  {
+   "date": "2026-11-22",
+   "repo": "tea-timer",
+   "app": "Tea Timer",
+   "tag": "v1.5",
+   "version": "1.5",
+   "text": "Tea Timer Android app; Publish built APK to the apk branch; Louder tea-ready alarm: rings until stopped, full-screen over lock screen; License under GPL-3.0-or-later; Add an on-demand emulator screenshot workflow; Sign releases with the release key from GitHub secrets; Add a 'Buy me a beer' Ko-fi link; Support link: “Support me on Ko-fi” instead of “Buy me a beer”; GitHub and jonsolberg.se link…",
+   "url": "https://github.com/jonsolberg/tea-timer/releases/tag/v1.5",
+   "kind": "release"
+  },
+  {
+   "date": "2026-11-22",
+   "repo": "wallpaper",
+   "app": "Wallpapers",
+   "tag": "android-1.4-linux-1.5-windows-1.10",
+   "version": "Android 1.4 · Linux 1.5 · Windows 1.10",
+   "text": "Wallpapers: Android app (rebuilt as a Gradle project) and Linux tray app, with CI, release signing and Ko-fi link; Fix icon fill type; Windows app: source, Mono build and CI; Ko-fi link in its menu; Dark scroll arrows in long menus; Installs itself on first run (Start menu, Settings › Apps, start with Windows), updates in place, uninstall; Left-click the tray icon for the next wallpaper, right-…",
+   "url": "https://github.com/jonsolberg/wallpaper/releases/tag/android-1.4-linux-1.5-windows-1.10",
+   "kind": "release"
+  },
+  {
+   "date": "2026-11-22",
+   "repo": "strymoniridiumcontrol",
+   "app": "Iridium Control",
+   "tag": "v1.1.9",
+   "version": "1.1.9",
+   "text": "Iridium Control: modern Android editor/librarian for the Strymon Iridium; Add on-demand emulator screenshot workflow; Publish screenshots to a branch; Full-width live edit card; Suppress emulator dialogs in screenshot script; Fit knobs in phone landscape; Fix presets header inset; Footswitches under the outer knobs; MIDDLE/TREBLE set higher than BASS/ROOM as on the pedal; Keep 3-way switch labe…",
+   "url": "https://github.com/jonsolberg/strymoniridiumcontrol/releases/tag/v1.1.9",
+   "kind": "release"
+  },
+  {
+   "date": "2026-11-22",
+   "repo": "wamplerterraformcontrol",
+   "app": "Terraform Control",
+   "tag": "v1.0.6",
+   "version": "1.0.6",
+   "text": "MIDI editor and preset librarian for the Wampler Terraform; Fix setter name clash for the expression value; Add emulator screenshot workflow; Fit the effect dial labels on narrow screens; Routing toggle on one line; Bigger effect dial and an easier PRE/POST switch; Give the effect dial more room; Larger knobs beside the dial; Keep long knob labels whole; Space VARIABLE and VOLUME apart; Version…",
+   "url": "https://github.com/jonsolberg/wamplerterraformcontrol/releases/tag/v1.0.6",
+   "kind": "release"
+  },
+  {
+   "date": "2026-11-22",
+   "repo": "efx-le-loop-swither-editor",
+   "app": "EFX-LE Editor",
+   "tag": "v1.0",
+   "version": "1.0",
+   "text": "Web editor: presets, routing, songs, sets, global settings, SysEx load/save and Direct mode",
+   "url": "https://github.com/jonsolberg/efx-le-loop-swither-editor/releases/tag/v1.0",
+   "kind": "release"
+  },
+  {
+   "date": "2026-11-22",
+   "repo": "hxstompcontrol",
+   "app": "HX Stomp Control",
+   "tag": "v0.2.5",
+   "version": "0.2.5",
+   "text": "List and select presets over USB; Publish APK as a GitHub release; Add download link; Demo mode and screenshot workflow; Web editor with Direct mode over USB MIDI, preset/setlist file editor, MIDI monitor and setup guide; The app now hosts the same editor; Point to the https version when Direct mode can't use MIDI on an http page; About in Help (copyright, GitHub, jonsolberg.se, Support me); Ke…",
+   "url": "https://github.com/jonsolberg/hxstompcontrol/releases/tag/v0.2.5",
+   "kind": "release"
+  },
+  {
+   "date": "2026-11-16",
+   "repo": "tactus",
+   "app": "Tactus",
+   "tag": "v1.0.0",
+   "version": "1.0.0",
+   "text": "Tactus: vibrating metronome for Garmin watches; Add Windows build script and Connect IQ Store guide; Build on GitHub Actions: fenix 7 / Instinct 2 .prg and store .iq; Trigger first build; Fix B&W default for Swedish-language watches; Sharper launcher icon; Theme flag: use string jsonData; Attach build files when a release is published",
+   "url": "https://github.com/jonsolberg/tactus/releases/tag/v1.0.0",
+   "kind": "release"
   }
  ]
 }
