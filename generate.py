@@ -132,7 +132,7 @@ def main():
         return "\n".join(h)
 
     out = []
-    out.append(f'<p align="center"><a href="{site}"><img src="assets/header-code-music-2.jpg" alt="Jon Solberg – apps and games" width="100%"></a></p>\n\n')
+    out.append(f'<p align="center"><a href="{site}"><img src="assets/header-code-music-3.jpg" alt="Jon Solberg – apps and games" width="100%"></a></p>\n\n')
     links_row = [
         f'<a href="{site}">🌐 Website</a>',
         f'<a href="{site}/tools.html">🧰 Tools</a>',

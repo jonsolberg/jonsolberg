@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # Copyright (C) 2026 Jon Solberg. Licensed under the GNU GPL v3 (see LICENSE).
 # Builds assets/banner.jpg for the jonsolberg GitHub profile:
-# "code rain" mixed with musical notation, plus app screenshot cards.
+# code snippets mixed with musical notation, plus app screenshot cards.
 # Usage: make_banner.py <assets dir> <out.jpg>
-import random, sys
+import random, re, sys
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
 ASSETS, OUT = sys.argv[1], sys.argv[2]
@@ -25,34 +25,42 @@ for y in range(H):
     t = y / H
     d.line([(0, y), (W, y)], fill=(int(8 + 6 * t), int(14 + 6 * t), int(22 + 10 * t)))
 
-# ---- code rain ----
-rain = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-rd = ImageDraw.Draw(rain)
-code = "{}();=<>/*+-&|!01234567890xABCDEFmidiPCccnoteOnvelchloopfor"
-notes = "♩♪♫♬♭♮♯"
-CW, CH = 16, 18
-for cx in range(0, W, CW):
-    for _ in range(random.choice([1, 2, 2])):
-        head = random.randint(-2, H // CH + 6)
-        length = random.randint(5, 22)
-        for k in range(length):
-            row = head - k
-            if row < 0 or row * CH > H:
+# ---- fictive code snippets (same palette as before, no falling characters) ----
+snip = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+sd0 = ImageDraw.Draw(snip)
+SNIPPETS = [
+    (700, 108, ["// strum the chord on beat one", "for (const s of strings) {",
+                "  pluck(s.note, t0 + s.i * 12);", "}", "tempo.tap();  // 120 bpm"]),
+    (600, 246, ["fun sendPreset(n: Int) {", "  midi.send(PC(channel, n))", "  led.flash(GREEN)", "}"]),
+    (88, 352, ["scale = ['E','A','D','G','B','E'];  // standard tuning"]),
+]
+KW = ("for", "const", "fun", "if", "return", "void", "let")
+for x0, y0, rows in SNIPPETS:
+    for i, row in enumerate(rows):
+        y = y0 + i * 19
+        if row.strip().startswith("//"):
+            sd0.text((x0, y), row, font=mono, fill=(120, 140, 150, 120))
+            continue
+        x = x0
+        for tok in re.split(r"(\s+|'[^']*'|//.*$)", row):
+            if not tok:
                 continue
-            fade = 1 - k / length
-            if random.random() < 0.18:
-                ch, font, dy = random.choice(notes), music(22), -4
-                col = (255, 150, 70)          # notes glow warm
+            if tok.startswith("//"):
+                col = (120, 140, 150, 120)
+            elif tok.startswith("'"):
+                col = (255, 165, 90, 170)
+            elif tok in KW:
+                col = (120, 230, 170, 190)
             else:
-                ch, font, dy = random.choice(code), mono, 0
-                col = (70, 220, 140)
-            if k == 0:
-                col = (215, 255, 230)
-            a = int(255 * (0.25 + 0.75 * fade) * (1 if k else 1))
-            rd.text((cx + 3, row * CH + dy), ch, font=font, fill=col + (a,))
-glow = rain.filter(ImageFilter.GaussianBlur(4))
+                col = (90, 200, 150, 140)
+            sd0.text((x, y), tok, font=mono, fill=col)
+            x += sd0.textlength(tok, font=mono)
+# a few loose notes floating between the snippets
+for nx, ny, g, sz in [(1060, 130, "\u266b", 44), (840, 238, "\u266a", 40), (530, 320, "\u266c", 34)]:
+    sd0.text((nx, ny), g, font=music(sz), fill=(255, 160, 80, 150))
+glow = snip.filter(ImageFilter.GaussianBlur(3))
 bg.paste(glow, (0, 0), glow)
-bg.paste(rain, (0, 0), rain)
+bg.paste(snip, (0, 0), snip)
 
 # ---- staves made of code ----
 lines = [
