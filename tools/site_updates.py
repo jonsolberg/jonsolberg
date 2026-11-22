@@ -14,6 +14,7 @@ APPS = {
     'plektrum': 'Plektrum', 'strymoniridiumcontrol': 'Iridium Control', 'wamplerterraformcontrol': 'Terraform Control',
     'rc500editor': 'RC-500 Editor', 'hxstompcontrol': 'HX Stomp Control', 'midi_muppet_max': 'MIDI Muppet Max',
     'tactus': 'Tactus', 'levain': 'Levain', 'tea-timer': 'Tea Timer', 'wallpaper': 'Wallpapers',
+    'efx-le-loop-swither-editor': 'EFX-LE Editor',
 }
 DAYS_PER_APP = 6
 SKIP = re.compile(r'^(Merge|Update project overview|Cache-bust|Screenshot|README|Release workflow|Rename|Docs?:|Bump)', re.I)
