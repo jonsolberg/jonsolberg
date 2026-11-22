@@ -59,9 +59,9 @@ Editor and live control for the BOSS RC-500 looper over its USB port.<br>
 <td width="50%" valign="top">
 <a href="https://github.com/jonsolberg/midi_muppet_multi_4btn"><img src="assets/midimuppet-editor.webp" alt="MIDI Muppet 4btn" width="100%"></a>
 <h3>🎹 <a href="https://github.com/jonsolberg/midi_muppet_multi_4btn">MIDI Muppet 4btn</a></h3>
-<sub>Arduino · DIY · <a href="https://github.com/jonsolberg/midi_muppet_multi_4btn/releases/tag/v.1.0.0">v.1.0.0</a></sub><br>
+<sub>Arduino · DIY</sub><br>
 DIY four button MIDI foot switch you set up in the browser – HX Stomp, RC-500, Terraform.<br>
-<sub><a href="https://jonsolberg.se:8080/MidiMuppet/">Web editor</a> · <a href="https://github.com/jonsolberg/midi_muppet_multi_4btn#hardware">Build guide</a> · <a href="https://github.com/jonsolberg/midi_muppet_multi_4btn">Source</a></sub>
+<sub><a href="https://jonsolberg.se:8080/MidiMuppet/">Web editor</a> · <a href="https://github.com/jonsolberg/midi_muppet_multi_4btn#hardware">Build guide</a></sub>
 </td>
 <td width="50%"></td>
 </tr>
@@ -141,16 +141,25 @@ Point-and-click: get Barnaby off Santa's Naughty List.<br>
 <table>
 <tr>
 <td width="50%" valign="top">
+<h3>✨ <a href="https://github.com/jonsolberg/midi_muppet_max">midi_muppet_max</a></h3>
+<sub><a href="https://github.com/jonsolberg/midi_muppet_max/releases/tag/v.1.0.0">v.1.0.0</a></sub><br>
+Four button Arduino MIDI foot switch you set up in the browser – for HX Stomp, BOSS RC-500, Wampler Terraform or any MIDI device. Based on MIDI Muppet HX.<br>
+<sub><a href="https://jonsolberg.se:8080/MidiMuppet/">Website</a> · <a href="https://github.com/jonsolberg/midi_muppet_max">Source</a></sub>
+</td>
+<td width="50%" valign="top">
 <h3>✨ <a href="https://github.com/jonsolberg/rc500editor">rc500editor</a></h3>
 <sub><a href="https://github.com/jonsolberg/rc500editor/releases/tag/v2.48">v2.48</a></sub><br>
 Editor for the BOSS RC-500 Loop Station, in the browser and as an Android app: edit memories, rhythms and settings, and back up and restore the pedal over USB.<br>
 <sub><a href="https://jonsolberg.github.io/rc500editor/">Website</a> · <a href="https://github.com/jonsolberg/rc500editor">Source</a></sub>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <h3>✨ <a href="https://github.com/jonsolberg/efx-le-loop-swither-editor">efx-le-loop-swither-editor</a></h3>
 A web based editor for the Musicom Lab EFX LE Loop Switcher<br>
 <sub><a href="https://github.com/jonsolberg/efx-le-loop-swither-editor">Source</a></sub>
 </td>
+<td width="50%"></td>
 </tr>
 </table>
 
