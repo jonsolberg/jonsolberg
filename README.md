@@ -2,7 +2,7 @@
 
 <p align="center"><a href="https://jonsolberg.se:8080">🌐 Website</a> &nbsp;·&nbsp; <a href="https://jonsolberg.se:8080/tools.html">🧰 Tools</a> &nbsp;·&nbsp; <a href="https://jonsolberg.se:8080/music.html">🎸 Music</a> &nbsp;·&nbsp; <a href="https://jonsolberg.se:8080/games.html">🎮 Games</a> &nbsp;·&nbsp; <a href="https://ko-fi.com/jonsolberg">❤️ Support me</a> &nbsp;·&nbsp; <a href="mailto:github@jonsolberg.se">✉️ github@jonsolberg.se</a></p>
 
-<p align="center"><i>I make small, free apps and games: tools for musicians, a bread calculator, a tea timer, wallpapers and a few games you can play in the browser. The apps are open source under GPL v3.</i></p>
+<p align="center"><i>I make free apps for musicians – pedal editors, a chord and scale toolbox, a metronome for your watch – plus a few everyday helpers and some games you can play in the browser. The apps are open source under GPL v3.</i></p>
 
 <h2 align="center">🎸 For musicians</h2>
 
