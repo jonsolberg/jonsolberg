@@ -198,6 +198,7 @@ links = [ ["Play", "/Games/WakeTheBear/"] ]
 
 [[project]]
 name = "The Naughty List Caper"
+repo = "naughtylistcaper"
 image = "assets/naughtylistcaper.webp"
 tagline = "Point-and-click: get Barnaby off Santa's Naughty List."
 section = "games"
