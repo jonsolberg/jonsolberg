@@ -161,8 +161,8 @@ def main():
     out.append('<p align="center">' + " &nbsp;·&nbsp; ".join(links_row) + "</p>\n\n")
     out.append(f'<p align="center"><i>{esc(cfg["intro"])}</i></p>\n')
     if cfg.get("about"):
-        link = f'<a href="{site}">{esc(cfg.get("about_link", "portfolio"))}</a>'
-        out.append(f'<p align="center">{esc(cfg["about"]).replace("{portfolio}", link)}</p>\n')
+        about_a = f'<a href="{site}">{esc(cfg.get("about_link", "portfolio"))}</a>'
+        out.append(f'<p align="center">{esc(cfg["about"]).replace("{portfolio}", about_a)}</p>\n')
 
     for sec in sections:
         items = [p for p in projects if p.get("section") == sec["id"]]
