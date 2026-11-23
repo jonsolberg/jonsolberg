@@ -88,7 +88,7 @@ Bread calculator with baker's percentages and step timers.<br>
 <td width="50%" valign="top">
 <a href="https://github.com/jonsolberg/lamell"><img src="assets/lamell.webp" alt="Lamell" width="100%"></a>
 <h3>🍄 <a href="https://github.com/jonsolberg/lamell">Lamell</a></h3>
-<sub>Android · <a href="https://github.com/jonsolberg/lamell/releases/tag/v1.0">v1.0</a></sub><br>
+<sub>Android · <a href="https://github.com/jonsolberg/lamell/releases/tag/v1.2">v1.2</a></sub><br>
 Offline field guide to Swedish mushrooms with image recognition.<br>
 <sub><a href="https://github.com/jonsolberg/lamell/releases/latest/download/Lamell.apk">Android app</a> · <a href="https://github.com/jonsolberg/lamell">Source</a></sub>
 </td>
