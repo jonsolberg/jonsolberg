@@ -95,8 +95,9 @@ def main():
     except Exception as e:  # keep building from the config alone
         print("GitHub API unavailable:", e, file=sys.stderr)
 
-    projects = cfg.get("project", [])
-    known = {p["repo"].lower() for p in projects if p.get("repo")}
+    # hidden = true keeps a project in the config but off the page
+    projects = [p for p in cfg.get("project", []) if not p.get("hidden")]
+    known = {p["repo"].lower() for p in cfg.get("project", []) if p.get("repo")}
     for name, r in sorted(repos.items(), key=lambda kv: kv[1]["pushed_at"] or "", reverse=True):
         if name not in known:
             projects.append({

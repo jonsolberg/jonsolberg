@@ -8,6 +8,7 @@
 #
 # New public repos show up by themselves under "New & other". To give one
 # a nicer entry, add a [[project]] block for it with the right section.
+# Add hidden = true to a block to keep it off the page.
 
 site = "https://jonsolberg.se:8080"
 kofi = "https://ko-fi.com/jonsolberg"
@@ -165,6 +166,7 @@ links = [ ["Android", "https://github.com/jonsolberg/wallpaper/releases/latest/d
 
 [[project]]
 name = "Crossroads"
+hidden = true   # only reachable by direct link for now
 image = "assets/crossroads.webp"
 tagline = "Diplomacy where every ally has a price."
 section = "games"
@@ -175,6 +177,7 @@ links = [ ["Play", "/Games/Crossroads/"], ["Android app", "/Games/Crossroads/And
 
 [[project]]
 name = "Crossfjords"
+hidden = true   # only reachable by direct link for now
 image = "assets/crossfjords.webp"
 tagline = "A Nordic comedy of very polite wars."
 section = "games"
