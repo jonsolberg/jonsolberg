@@ -19,7 +19,7 @@ in the browser. The apps are open source under GPL v3."""
 
 # A line about my work, shown under the intro. {portfolio} becomes a link to the website.
 about = """By day I work with IT strategy, requirements and information architecture – \
-see my {portfolio}. Everything here is built with AI-assisted development (Claude)."""
+see my {portfolio}. Everything here is built with AI-assisted development."""
 about_link = "portfolio and CV"
 
 [[section]]
