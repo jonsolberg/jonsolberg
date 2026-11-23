@@ -86,14 +86,21 @@ Bread calculator with baker's percentages and step timers.<br>
 <sub><a href="https://github.com/jonsolberg/levain/releases/latest/download/Levain.apk">Android app</a> · <a href="https://github.com/jonsolberg/levain">Source</a></sub>
 </td>
 <td width="50%" valign="top">
+<a href="https://github.com/jonsolberg/lamell"><img src="assets/lamell.webp" alt="Lamell" width="100%"></a>
+<h3>🍄 <a href="https://github.com/jonsolberg/lamell">Lamell</a></h3>
+<sub>Android · <a href="https://github.com/jonsolberg/lamell/releases/tag/v1.0">v1.0</a></sub><br>
+Offline field guide to Swedish mushrooms with image recognition.<br>
+<sub><a href="https://github.com/jonsolberg/lamell/releases/latest/download/Lamell.apk">Android app</a> · <a href="https://github.com/jonsolberg/lamell">Source</a></sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 <a href="https://github.com/jonsolberg/tea-timer"><img src="assets/teatimer.webp" alt="Tea Timer" width="100%"></a>
 <h3>🍵 <a href="https://github.com/jonsolberg/tea-timer">Tea Timer</a></h3>
 <sub>Android · <a href="https://github.com/jonsolberg/tea-timer/releases/tag/v1.5">v1.5</a></sub><br>
 Steep times and temperatures for eleven kinds of tea.<br>
 <sub><a href="https://github.com/jonsolberg/tea-timer/releases/latest/download/TeaTimer.apk">Android app</a> · <a href="https://github.com/jonsolberg/tea-timer">Source</a></sub>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="https://github.com/jonsolberg/wallpaper"><img src="assets/wallpapers.webp" alt="Wallpapers" width="100%"></a>
 <h3>🖼️ <a href="https://github.com/jonsolberg/wallpaper">Wallpapers</a></h3>
@@ -101,7 +108,6 @@ Steep times and temperatures for eleven kinds of tea.<br>
 A fresh wallpaper from jonsolberg.se, every day.<br>
 <sub><a href="https://github.com/jonsolberg/wallpaper/releases/latest/download/Wallpapers.apk">Android</a> · <a href="https://github.com/jonsolberg/wallpaper/releases/latest/download/Wallpapers-Windows.exe">Windows</a> · <a href="https://github.com/jonsolberg/wallpaper/releases/latest/download/jonsolberg-wallpapers_all.deb">Linux</a> · <a href="https://jonsolberg.se:8080/Wallpapers/">Browse wallpapers</a> · <a href="https://github.com/jonsolberg/wallpaper">Source</a></sub>
 </td>
-<td width="50%"></td>
 </tr>
 </table>
 
