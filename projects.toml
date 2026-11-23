@@ -141,6 +141,17 @@ platform = "Android"
 links = [ ["Android app", "https://github.com/jonsolberg/levain/releases/latest/download/Levain.apk"] ]
 
 [[project]]
+repo = "lamell"
+name = "Lamell"
+image = "assets/lamell.webp"
+tagline = "Offline field guide to Swedish mushrooms with image recognition."
+section = "everyday"
+emoji = "🍄"
+blurb = "A field guide to 232 Swedish mushrooms that works offline: photos, edibility, look-alikes and season, on-device image recognition and your own finds with GPS. An aid, not a guarantee."
+platform = "Android"
+links = [ ["Android app", "https://github.com/jonsolberg/lamell/releases/latest/download/Lamell.apk"] ]
+
+[[project]]
 repo = "tea-timer"
 name = "Tea Timer"
 image = "assets/teatimer.webp"
