@@ -133,4 +133,20 @@ Point-and-click: get Barnaby off Santa's Naughty List.<br>
 </tr>
 </table>
 
+<h2 align="center">✨ New & other</h2>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3>✨ <a href="https://github.com/jonsolberg/SM_i_skog_results_reporter">SM_i_skog_results_reporter</a></h3>
+<sub><a href="https://github.com/jonsolberg/SM_i_skog_results_reporter">Source</a></sub>
+</td>
+<td width="50%" valign="top">
+<h3>✨ <a href="https://github.com/jonsolberg/side_b">side_b</a></h3>
+An Android Portastudio and sonic sketch pad for musiscians on the go<br>
+<sub><a href="https://github.com/jonsolberg/side_b">Source</a></sub>
+</td>
+</tr>
+</table>
+
 <p align="center"><sub>This page updates itself every day from <a href="https://github.com/jonsolberg/jonsolberg/blob/main/projects.toml">projects.toml</a> and my public repositories · All my code is licensed under GPL v3</sub></p>
